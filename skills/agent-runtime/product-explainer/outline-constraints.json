@@ -1,0 +1,5 @@
+{
+  "$comment": "Structural constraints for the product-explainer skill. See lib/server/agent-runtime/skills.ts.",
+  "allowedTypes": ["slide"],
+  "firstSceneType": "slide"
+}

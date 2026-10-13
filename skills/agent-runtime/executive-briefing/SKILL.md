@@ -51,3 +51,9 @@ Titles are claims ("Churn fell 12% after the pricing change"), not topics
 Follow the "Before you call the stage done" check in `stage-design`, including
 audio on every speech action. Then state the page count and any facts you could
 not source.
+
+## Prohibited
+
+- Topic-label titles, background history, and definitions the audience already knows.
+- A page with no decision, option, risk or next step attached to it.
+- Any number, date or name that is not in a source you read.

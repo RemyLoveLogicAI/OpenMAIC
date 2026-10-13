@@ -49,3 +49,9 @@ line: the narration carries the explanation.
 Run the `stage-design` done check. Hand over with: page count, estimated length,
 which claims came from which material, and what is missing. Tell the user the
 next step is the video export in the classroom UI.
+
+## Prohibited
+
+- Feature lists, logo walls and dense on-screen text.
+- Invented metrics, customers, awards or pricing.
+- Telling the user a video file was produced.

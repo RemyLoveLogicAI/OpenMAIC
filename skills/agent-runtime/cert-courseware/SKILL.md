@@ -46,3 +46,9 @@ Per module, run the `stage-design` done check, including audio. At the end give
 the learner-facing summary: modules built, objectives covered, objectives with
 no assessed page, and any page that failed to generate. Never claim the course is
 accreditation-ready; say what has been mapped to which source.
+
+## Prohibited
+
+- Recall-only questions ("which of these is the definition of...").
+- An objective with no assessed page presented as covered.
+- Claims of accreditation, pass rates or exam equivalence the sources do not state.

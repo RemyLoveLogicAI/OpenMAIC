@@ -1,0 +1,6 @@
+{
+  "$comment": "Structural constraints for the executive-briefing skill. Checked against the stage after each page; violations return to the agent as a diagnostic. See lib/server/agent-runtime/skills.ts.",
+  "allowedTypes": ["slide", "quiz"],
+  "firstSceneType": "slide",
+  "typeMix": [{ "type": "quiz", "max": 1 }]
+}

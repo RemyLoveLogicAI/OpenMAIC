@@ -1,0 +1,6 @@
+{
+  "$comment": "Structural constraints for one cert-courseware module (one module per stage). See lib/server/agent-runtime/skills.ts.",
+  "allowedTypes": ["slide", "quiz", "interactive"],
+  "firstSceneType": "slide",
+  "typeMix": [{ "type": "quiz", "min": 1 }]
+}
