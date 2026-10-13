@@ -6,6 +6,7 @@ import {
   anonymousOwnerForNavigation,
   type NavigationIdentity,
 } from '@/lib/server/identity/navigation';
+import { applyRateLimit } from '@/lib/server/rate-limit';
 
 /**
  * Let the request through, carrying the anonymous owner a page request
@@ -43,6 +44,12 @@ export async function middleware(request: NextRequest) {
     headers: request.headers,
     pathname,
   });
+
+  // Apply sliding-window rate limit on API invocations (LLM generation, chat, and general routes)
+  const rateLimitRes = applyRateLimit(request);
+  if (rateLimitRes) {
+    return rateLimitRes;
+  }
 
   const accessCode = process.env.ACCESS_CODE;
   if (!accessCode) {
