@@ -1991,7 +1991,8 @@
       "getApiKey": "احصل على مفتاح API",
       "domestic": "الصين",
       "international": "دولي"
-    }
+    },
+    "providerDeepgramASR": "Deepgram ASR (Nova-3)"
   },
   "workspace": {
     "untitledCourse": "未命名课堂",

@@ -1991,7 +1991,8 @@
       "getApiKey": "API-Key holen",
       "domestic": "Festland",
       "international": "International"
-    }
+    },
+    "providerDeepgramASR": "Deepgram ASR (Nova-3)"
   },
   "workspace": {
     "untitledCourse": "未命名课堂",

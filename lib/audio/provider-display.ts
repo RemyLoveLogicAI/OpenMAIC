@@ -20,6 +20,7 @@ const ASR_PROVIDER_NAME_KEYS: Record<string, string> = {
   'azure-asr': 'settings.providerAzureASR',
   'funasr-asr': 'settings.providerFunASRASR',
   'lemonade-asr': 'settings.providerLemonadeASR',
+  'deepgram-asr': 'settings.providerDeepgramASR',
 };
 
 const TTS_PROVIDER_NAME_KEYS: Record<string, string> = {

@@ -1991,7 +1991,8 @@
       "getApiKey": "APIキーを取得",
       "domestic": "中国国内",
       "international": "海外"
-    }
+    },
+    "providerDeepgramASR": "Deepgram ASR (Nova-3)"
   },
   "workspace": {
     "untitledCourse": "未命名课堂",

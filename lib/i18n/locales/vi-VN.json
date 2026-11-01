@@ -1991,7 +1991,8 @@
       "getApiKey": "Lấy khóa API",
       "domestic": "Trung Quốc",
       "international": "Quốc tế"
-    }
+    },
+    "providerDeepgramASR": "Deepgram ASR (Nova-3)"
   },
   "workspace": {
     "untitledCourse": "未命名课堂",

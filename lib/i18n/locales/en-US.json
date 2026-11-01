@@ -1469,6 +1469,7 @@
     "providerFunASRASR": "FunASR (Local)",
     "providerLemonadeASR": "Lemonade ASR (Local)",
     "providerAzureASR": "Azure STT",
+    "providerDeepgramASR": "Deepgram ASR (Nova-3)",
     "providerUnpdf": "unpdf (Built-in)",
     "providerMinerU": "MinerU",
     "providerMinerUCloud": "MinerU (Cloud)",

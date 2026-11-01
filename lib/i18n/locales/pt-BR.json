@@ -1991,7 +1991,8 @@
       "getApiKey": "Obter chave de API",
       "domestic": "China continental",
       "international": "Internacional"
-    }
+    },
+    "providerDeepgramASR": "Deepgram ASR (Nova-3)"
   },
   "workspace": {
     "untitledCourse": "未命名课堂",

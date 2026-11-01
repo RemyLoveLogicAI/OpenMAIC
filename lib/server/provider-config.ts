@@ -103,6 +103,8 @@ const ASR_ENV_MAP: Record<string, string> = {
   ASR_AZURE: 'azure-asr',
   ASR_FUNASR: 'funasr-asr',
   ASR_LEMONADE: 'lemonade-asr',
+  ASR_DEEPGRAM: 'deepgram-asr',
+  DEEPGRAM: 'deepgram-asr',
 };
 
 const PDF_ENV_MAP: Record<string, string> = {

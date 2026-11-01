@@ -1469,6 +1469,7 @@
     "providerFunASRASR": "FunASR（本地）",
     "providerLemonadeASR": "Lemonade ASR（本地）",
     "providerAzureASR": "Azure STT",
+    "providerDeepgramASR": "Deepgram ASR (Nova-3)",
     "providerUnpdf": "unpdf（内置）",
     "providerMinerU": "MinerU",
     "providerMinerUCloud": "MinerU（云端）",

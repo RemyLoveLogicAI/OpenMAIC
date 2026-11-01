@@ -201,6 +201,9 @@ export async function transcribeAudio(
         'Lemonade',
       );
 
+    case 'deepgram-asr':
+      return await transcribeDeepgramASR(config, audioBuffer);
+
     default:
       if (isCustomASRProvider(config.providerId)) {
         return await transcribeCustomOpenAICompatibleASR(config, audioBuffer);
@@ -624,6 +627,78 @@ async function transcribeAzureASR(
 
   return { text: combinedText || phraseText || '' };
 }
+
+/**
+ * Transcribe audio using Deepgram Nova ASR API
+ * https://developers.deepgram.com/reference/listen-file
+ */
+async function transcribeDeepgramASR(
+  config: ASRModelConfig,
+  audioBuffer: Buffer | Blob,
+): Promise<ASRTranscriptionResult> {
+  const rawBaseUrl =
+    config.baseUrl || ASR_PROVIDERS['deepgram-asr'].defaultBaseUrl || 'https://api.deepgram.com/v1';
+  const baseUrl = rawBaseUrl.replace(/\/+$/, '');
+  const model = config.modelId || ASR_PROVIDERS['deepgram-asr'].defaultModelId;
+
+  const url = new URL(`${baseUrl}/listen`);
+  url.searchParams.set('model', model);
+  url.searchParams.set('smart_format', 'true');
+  url.searchParams.set('punctuate', 'true');
+
+  if (config.language && config.language !== 'auto') {
+    url.searchParams.set('language', config.language);
+  } else {
+    url.searchParams.set('detect_language', 'true');
+  }
+
+  let body: Buffer | Blob;
+  let contentType = 'audio/webm';
+
+  if (audioBuffer instanceof Blob) {
+    body = audioBuffer;
+    if (audioBuffer.type) {
+      contentType = audioBuffer.type;
+    }
+  } else {
+    body = audioBuffer;
+    contentType = 'application/octet-stream';
+  }
+
+  const response = await audioProviderFetch(
+    url.toString(),
+    {
+      method: 'POST',
+      headers: {
+        Authorization: `Token ${config.apiKey!}`,
+        'Content-Type': contentType,
+      },
+      body: body as unknown as BodyInit,
+    },
+    audioEndpointPolicy(config),
+  );
+
+  if (!response.ok) {
+    const errorText = await response.text().catch(() => response.statusText);
+    throw new Error(`Deepgram ASR error (${response.status}): ${errorText}`);
+  }
+
+  const data = (await response.json()) as {
+    results?: {
+      channels?: Array<{
+        alternatives?: Array<{
+          transcript?: string;
+        }>;
+      }>;
+    };
+  };
+
+  const transcript =
+    data.results?.channels?.[0]?.alternatives?.[0]?.transcript || '';
+
+  return { text: transcript.trim() };
+}
+
 
 /**
  * Get current ASR configuration from settings store
