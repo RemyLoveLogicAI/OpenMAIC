@@ -22,6 +22,8 @@ import {
   Clock,
   Compass,
   Contrast,
+  Download,
+  FileText,
   Hammer,
   Layers,
   Lightbulb,
@@ -37,6 +39,9 @@ import { motion } from 'motion/react';
 import type { ReactNode } from 'react';
 import type { PBLEvaluation, PBLProjectV2, PBLScenarioActGoals } from '@/lib/pbl/v2/types';
 import { useI18n } from '@/lib/hooks/use-i18n';
+import { loadDrillProfile } from '@/lib/drill/drill-bridge';
+import { useStageStore } from '@/lib/store/stage';
+import { AfterActionReportModal } from './after-action-report-modal';
 import { stripEvaluationTail } from '@/lib/pbl/v2/operations/runtime/eval-tail-parser';
 import {
   computeCompletionStats,
@@ -108,6 +113,9 @@ export function PBLV2Completion({ project, onBack }: Props) {
   const { t } = useI18n();
   const report = buildCompletionReportViewModel(project);
   const { stats } = report;
+  const stageId = useStageStore.getState().stage?.id;
+  const drillProfile =
+    project.drillProfile || (typeof window !== 'undefined' ? loadDrillProfile(stageId) : null);
 
   // Shared shell (celebration, hero, stars, what's-next) is identical for both
   // project kinds; the BODY between hero and what's-next is fully split by
@@ -129,16 +137,33 @@ export function PBLV2Completion({ project, onBack }: Props) {
   return (
     <div className="relative h-full w-full overflow-y-auto bg-[radial-gradient(circle_at_20%_10%,rgba(124,92,255,0.18),transparent_32%),radial-gradient(circle_at_88%_0%,rgba(34,211,238,0.14),transparent_30%),linear-gradient(135deg,#0b1220_0%,#111c33_52%,#0a1020_100%)] text-slate-100">
       <div className="m-auto w-full max-w-6xl px-8 py-10">
-        {onBack && (
-          <button
-            type="button"
-            onClick={onBack}
-            className="mb-4 inline-flex items-center gap-2 rounded-xl border border-white/[0.08] bg-white/[0.04] px-3 py-2 text-xs font-medium text-slate-200 transition hover:bg-white/[0.08]"
-          >
-            <ArrowLeft className="h-3.5 w-3.5" />
-            {t('pbl.v2.completion.backToWorkspace')}
-          </button>
-        )}
+        <div className="mb-4 flex items-center justify-between">
+          {onBack ? (
+            <button
+              type="button"
+              onClick={onBack}
+              className="inline-flex items-center gap-2 rounded-xl border border-white/[0.08] bg-white/[0.04] px-3 py-2 text-xs font-medium text-slate-200 transition hover:bg-white/[0.08]"
+            >
+              <ArrowLeft className="h-3.5 w-3.5" />
+              {t('pbl.v2.completion.backToWorkspace')}
+            </button>
+          ) : (
+            <div />
+          )}
+          <AfterActionReportModal
+            project={project}
+            drillProfile={drillProfile}
+            trigger={
+              <button
+                type="button"
+                className="inline-flex items-center gap-2 rounded-xl border border-cyan-400/30 bg-cyan-500/10 px-3.5 py-2 text-xs font-semibold text-cyan-200 shadow-sm transition hover:border-cyan-400/50 hover:bg-cyan-500/20"
+              >
+                <FileText className="h-4 w-4 text-cyan-300" />
+                Export After-Action Report (AAR)
+              </button>
+            }
+          />
+        </div>
 
         {/* ── Celebration ── */}
         <CelebrationHeader />
@@ -182,6 +207,36 @@ export function PBLV2Completion({ project, onBack }: Props) {
         ) : (
           <StandardCompletionBody stats={stats} report={report} />
         )}
+
+        {/* ── Operational After-Action Report (AAR) Card ── */}
+        <section className="mt-4 rounded-2xl border border-cyan-500/20 bg-gradient-to-r from-cyan-950/30 via-slate-900/40 to-indigo-950/30 p-5 backdrop-blur-sm">
+          <div className="flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
+            <div className="space-y-1">
+              <div className="flex items-center gap-2 text-sm font-semibold text-cyan-200">
+                <ShieldCheck className="h-4 w-4 text-cyan-400" />
+                Operational After-Action Report (AAR) Ready
+              </div>
+              <p className="max-w-xl text-xs text-slate-300">
+                Complete operational synthesis combining tactical elicitation drill scores (Scene 10) with Capstone Operation Canary Shield intelligence findings, trap evasion records, and attribution analysis.
+              </p>
+            </div>
+            <div className="flex shrink-0 items-center gap-2">
+              <AfterActionReportModal
+                project={project}
+                drillProfile={drillProfile}
+                trigger={
+                  <button
+                    type="button"
+                    className="inline-flex items-center gap-2 rounded-xl border border-cyan-400/40 bg-cyan-500/20 px-4 py-2 text-xs font-bold text-cyan-100 transition hover:bg-cyan-500/30 hover:shadow-[0_0_15px_rgba(6,182,212,0.3)]"
+                  >
+                    <Download className="h-4 w-4 text-cyan-300" />
+                    Download AAR (MD / PDF)
+                  </button>
+                }
+              />
+            </div>
+          </div>
+        </section>
 
         {/* ── What's next ── */}
         <section className="mt-4 rounded-2xl border border-white/[0.07] bg-white/[0.035] p-5">

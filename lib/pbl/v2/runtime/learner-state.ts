@@ -153,6 +153,7 @@ export function stripToDesignTemplate(project: PBLProjectV2): PBLProjectV2 {
   template.pendingHandover = undefined;
   template.pendingTaskCompletion = undefined;
   template.pendingOpenTaskPriorQuizResults = undefined;
+  template.drillProfile = undefined;
 
   template.threads = template.threads.map(
     (thread): PBLAgentThread => ({

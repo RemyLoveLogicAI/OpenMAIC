@@ -24,6 +24,8 @@ import {
   INTERACTIVE_OUTERHTML_MAX,
   makeInteractiveElementRef,
 } from '@/lib/workbench/element-refs';
+import { useStageStore } from '@/lib/store/stage';
+import { saveDrillProfile, type DrillProfile } from '@/lib/drill/drill-bridge';
 import { InteractiveRuntimeErrorBanner } from './InteractiveRuntimeErrorBanner';
 
 type InteractivePickerMessage = {
@@ -352,8 +354,14 @@ function PooledIframe({
       if (e.source !== iframeRef.current?.contentWindow) return;
       const d = e.data as
         | (InteractivePickerMessage & { errorKind?: string; message?: unknown })
-        | undefined;
-      if (!d || d.__maicInteractive !== true) return;
+      if (!d || typeof d !== 'object') return;
+      const isMaic =
+        d.__maicInteractive === true ||
+        d.kind === 'drill-result' ||
+        d.kind === 'drill-navigate' ||
+        (d as Record<string, unknown>).type === 'maic:drill-result' ||
+        (d as Record<string, unknown>).type === 'maic:drill-navigate';
+      if (!isMaic) return;
       if (d.kind === 'runtime-error') {
         const kind = typeof d.errorKind === 'string' ? d.errorKind : 'error';
         const msg = typeof d.message === 'string' ? d.message : String(d.message ?? '');
@@ -371,6 +379,26 @@ function PooledIframe({
           onPlaybackCancel,
         )
       ) {
+        return;
+      }
+      if (d.kind === 'drill-result' || (d as Record<string, unknown>).type === 'maic:drill-result') {
+        const rawProfile = ((d as Record<string, unknown>).drillProfile || d) as DrillProfile;
+        const stageId = useStageStore.getState().stage?.id ?? rawProfile.stageId;
+        saveDrillProfile(stageId, sceneId, rawProfile);
+        return;
+      }
+      if (d.kind === 'drill-navigate' || (d as Record<string, unknown>).type === 'maic:drill-navigate') {
+        const targetSceneId = (d as Record<string, unknown>).targetSceneId as string | undefined;
+        const targetSceneOrder = (d as Record<string, unknown>).targetSceneOrder as number | undefined;
+        const stageStore = useStageStore.getState();
+        const target = stageStore.scenes.find(
+          (s) =>
+            (targetSceneId && s.id === targetSceneId) ||
+            (targetSceneOrder !== undefined && s.order === Number(targetSceneOrder)),
+        );
+        if (target) {
+          stageStore.setCurrentSceneId(target.id);
+        }
         return;
       }
       if (effectiveMode === 'editor') handleInteractivePickerMessage(sceneId, d, t);

@@ -23,11 +23,13 @@ import {
   GraduationCap,
   Layers,
   RotateCcw,
+  ShieldCheck,
   Sparkles,
   Target,
 } from 'lucide-react';
 
 import type { PBLProjectV2 } from '@/lib/pbl/v2/types';
+import { loadDrillProfile, type DrillProfile, DRILL_PROFILE_EVENT } from '@/lib/drill/drill-bridge';
 import { trimmedPBLText } from '@/lib/pbl/v2/readers';
 import { useStageStore } from '@/lib/store/stage';
 import { buildQuizSnapshot } from '@/lib/pbl/v2/operations/runtime/quiz-snapshot';
@@ -39,6 +41,7 @@ import {
   prepareCurrentWorkspaceLaunchProject,
 } from '@/lib/pbl/v2/operations/runtime/workspace-launch';
 import { useI18n } from '@/lib/hooks/use-i18n';
+import { cn } from '@/lib/utils/cn';
 import {
   AlertDialog,
   AlertDialogAction,
@@ -105,6 +108,28 @@ export function PBLV2Hero({
   );
 
   const [launching, setLaunching] = useState(false);
+  const [drillProfile, setDrillProfile] = useState<DrillProfile | null>(() => {
+    const allScenes = useStageStore.getState().scenes;
+    const currentScene = allScenes.find((s) => s.id === sceneId);
+    return loadDrillProfile(currentScene?.stageId, sceneId);
+  });
+
+  useEffect(() => {
+    const sync = (e?: Event) => {
+      if (e instanceof CustomEvent && e.detail) {
+        setDrillProfile(e.detail as DrillProfile);
+        return;
+      }
+      const allScenes = useStageStore.getState().scenes;
+      const currentScene = allScenes.find((s) => s.id === sceneId);
+      const stageId = currentScene?.stageId || useStageStore.getState().stage?.id;
+      setDrillProfile(loadDrillProfile(stageId, sceneId));
+    };
+    sync();
+    window.addEventListener(DRILL_PROFILE_EVENT, sync);
+    return () => window.removeEventListener(DRILL_PROFILE_EVENT, sync);
+  }, [sceneId]);
+
   const launchEpochRef = useRef(0);
   const currentSceneIdRef = useRef(sceneId);
   const currentProjectRef = useRef(project);
@@ -136,6 +161,9 @@ export function PBLV2Hero({
       if (!isCurrentWorkspaceLaunch(epoch, launchEpochRef, launchSceneId, currentSceneIdRef))
         return;
       const ready = prepareCurrentWorkspaceLaunchProject(currentProjectRef, priorQuizResults);
+      if (drillProfile) {
+        ready.drillProfile = drillProfile;
+      }
       if (onLaunchReady) onLaunchReady(ready);
       else onProjectChange(ready);
     } finally {
@@ -148,7 +176,10 @@ export function PBLV2Hero({
   // progress intact. Reuse the launch path so the 1.3s reveal plays, same
   // as a first entry.
   const handleContinue = () => {
-    const ready = transitionProjectUiPhase(project, 'workspace');
+    const ready = transitionProjectUiPhase(project, 'workspace') as PBLProjectV2;
+    if (drillProfile) {
+      ready.drillProfile = drillProfile;
+    }
     if (onLaunchReady) onLaunchReady(ready);
     else onProjectChange(ready);
   };
@@ -335,6 +366,39 @@ export function PBLV2Hero({
           </div>
 
           <div className="mt-7">
+            {drillProfile && (
+              <div className="mb-5 rounded-2xl border border-cyan-400/25 bg-slate-900/80 p-4 shadow-lg backdrop-blur">
+                <div className="flex items-center justify-between gap-2">
+                  <div className="flex items-center gap-1.5 text-xs font-bold uppercase tracking-wider text-cyan-300">
+                    <ShieldCheck className="h-4 w-4 text-cyan-400" />
+                    <span>Operational Dossier (Scene 10 Bridged)</span>
+                  </div>
+                  <span
+                    className={cn(
+                      'rounded-full px-2.5 py-0.5 text-[11px] font-mono font-semibold border',
+                      drillProfile.score >= 270
+                        ? 'border-emerald-500/40 bg-emerald-500/15 text-emerald-300'
+                        : drillProfile.score >= 120
+                        ? 'border-amber-500/40 bg-amber-500/15 text-amber-300'
+                        : 'border-rose-500/40 bg-rose-500/15 text-rose-300',
+                    )}
+                  >
+                    {drillProfile.rating} · {drillProfile.score}/300
+                  </span>
+                </div>
+                <div className="mt-2 text-xs font-mono text-slate-200">
+                  <strong className="text-white">Starting Posture:</strong> {drillProfile.startingPosture}
+                </div>
+                <p className="mt-1.5 text-xs text-slate-300/90 leading-relaxed italic border-l-2 border-cyan-400/30 pl-2.5">
+                  &ldquo;{drillProfile.handlerBriefingNote}&rdquo;
+                </p>
+                <div className="mt-2.5 flex items-center gap-4 text-[11px] text-slate-400 border-t border-white/5 pt-2">
+                  <span>Traps Evaded: <b className="text-emerald-400">{drillProfile.trapsEvaded}</b></span>
+                  <span>Traps Sprung: <b className="text-rose-400">{drillProfile.trapsSprung}</b></span>
+                  <span>Clearance: <b className="text-cyan-400">Red Cell Active</b></span>
+                </div>
+              </div>
+            )}
             {started ? (
               <div className="flex items-stretch gap-2">
                 <button onClick={handleContinue} className={LAUNCH_BUTTON_CLASS}>

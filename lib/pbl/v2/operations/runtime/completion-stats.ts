@@ -465,7 +465,7 @@ function buildStageDetails(project: PBLProjectV2): StageDetail[] {
 
       // Stage synthesis quality — look up from the ledger.
       let synthesisQuality: string | undefined;
-      for (const ev of project.engagementEvents) {
+      for (const ev of project.engagementEvents ?? []) {
         if (ev.kind === 'stage_synthesis_check' && ev.milestoneId === ms.id) {
           synthesisQuality = ev.payload?.quality as string | undefined;
           break;

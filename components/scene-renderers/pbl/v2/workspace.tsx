@@ -13,7 +13,10 @@
 
 import type { PBLMilestone, PBLProjectV2 } from '@/lib/pbl/v2/types';
 import Image from 'next/image';
-import { Maximize2, Workflow } from 'lucide-react';
+import { FileText, Maximize2, Workflow } from 'lucide-react';
+import { loadDrillProfile } from '@/lib/drill/drill-bridge';
+import { useStageStore } from '@/lib/store/stage';
+import { AfterActionReportModal } from './after-action-report-modal';
 import {
   useCallback,
   useMemo,
@@ -431,6 +434,9 @@ function WorkspaceTopBar({
   readonly onExpand?: () => void;
 }) {
   const { t } = useI18n();
+  const stageId = useStageStore.getState().stage?.id;
+  const drillProfile =
+    project.drillProfile || (typeof window !== 'undefined' ? loadDrillProfile(stageId) : null);
   return (
     <header
       className="relative z-40 col-span-full grid min-w-0 items-center overflow-hidden border-b border-cyan-100/[0.12] bg-[#111d35]/88 px-4 shadow-[inset_0_1px_0_rgba(255,255,255,0.09),0_14px_42px_rgba(5,12,28,0.24)] backdrop-blur-xl"
@@ -514,17 +520,33 @@ function WorkspaceTopBar({
         </div>
       </div>
 
-      {onExpand && (
-        <button
-          type="button"
-          onClick={onExpand}
-          className="absolute right-3 top-1/2 z-50 flex h-8 w-8 -translate-y-1/2 items-center justify-center rounded-md border border-cyan-100/[0.18] bg-white/[0.06] text-indigo-100/85 shadow-sm backdrop-blur transition-colors hover:bg-white/[0.12]"
-          aria-label={t('pbl.v2.workspace.enterFullscreen')}
-          title={t('pbl.v2.workspace.enterFullscreen')}
-        >
-          <Maximize2 className="h-4 w-4" />
-        </button>
-      )}
+      <div className="absolute right-3 top-1/2 z-50 flex items-center gap-2 -translate-y-1/2">
+        <AfterActionReportModal
+          project={project}
+          drillProfile={drillProfile}
+          trigger={
+            <button
+              type="button"
+              className="flex items-center gap-1.5 rounded-md border border-cyan-100/[0.18] bg-white/[0.06] px-2.5 py-1.5 text-xs font-semibold text-cyan-200/90 shadow-sm backdrop-blur transition hover:bg-white/[0.12] hover:text-white"
+              title="Operational After-Action Report (AAR)"
+            >
+              <FileText className="h-3.5 w-3.5 text-cyan-400" />
+              <span className="hidden sm:inline">AAR</span>
+            </button>
+          }
+        />
+        {onExpand && (
+          <button
+            type="button"
+            onClick={onExpand}
+            className="flex h-8 w-8 items-center justify-center rounded-md border border-cyan-100/[0.18] bg-white/[0.06] text-indigo-100/85 shadow-sm backdrop-blur transition-colors hover:bg-white/[0.12]"
+            aria-label={t('pbl.v2.workspace.enterFullscreen')}
+            title={t('pbl.v2.workspace.enterFullscreen')}
+          >
+            <Maximize2 className="h-4 w-4" />
+          </button>
+        )}
+      </div>
     </header>
   );
 }

@@ -718,6 +718,17 @@ export function buildScenarioAwarenessBlock(args: {
     scenario.goal ? `- What they are practising: ${scenario.goal}` : '',
     `- Cast:\n  · ${cast}`,
     `- The immersive roleplay stage(s): ${roleplayTitles}.`,
+    args.project.drillProfile
+      ? [
+          '',
+          '### Operational Dossier (Bridged from Conversation Lab Drill):',
+          `- Drill Score: ${args.project.drillProfile.score}/${args.project.drillProfile.maxScore} (${args.project.drillProfile.rating})`,
+          `- Assigned Posture: ${args.project.drillProfile.startingPosture}`,
+          `- Traps Record: ${args.project.drillProfile.trapsEvaded} evaded, ${args.project.drillProfile.trapsSprung} sprung.`,
+          `- Clearance Directive: ${args.project.drillProfile.handlerBriefingNote}`,
+          'When formulating your opening briefing and coaching remarks, explicitly acknowledge their prior drill record and calibrate your tone and expectations to their assigned posture.',
+        ].join('\n')
+      : '',
     '',
   ];
 

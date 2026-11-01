@@ -37,6 +37,7 @@ const PROJECT_FIELD_BOUNDARY = {
   updatedAt: 'design-template',
   runtimeEvents: 'transient',
   pendingOpenTaskPriorQuizResults: 'transient',
+  drillProfile: 'transient',
 } as const satisfies Record<keyof PBLProjectV2, ProjectFieldBoundary>;
 
 function makeProject(overrides: Partial<PBLProjectV2> = {}): PBLProjectV2 {
@@ -252,6 +253,7 @@ describe('PBL learner state split', () => {
         },
       ],
       runtimeEvents: [runtimeEvent()],
+      drillProfile: undefined,
     });
     project.pendingHandover = {
       completedMilestoneId: 'ms-1',

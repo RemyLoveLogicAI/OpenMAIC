@@ -14,6 +14,9 @@ import type {
   PBLThreadSeat as ContractPBLThreadSeat,
 } from '@openmaic/dsl';
 import type { SceneOutline } from '@/lib/types/generation';
+import type { DrillProfile } from '@/lib/drill/drill-bridge';
+
+export type { DrillProfile };
 
 export type {
   PBLProject,
@@ -550,6 +553,7 @@ export type PBLProjectV2 = RuntimeOverlay<
     pendingHandover?: PBLHandover;
     pendingTaskCompletion?: PBLPendingTaskCompletion;
     pendingOpenTaskPriorQuizResults?: PriorQuizResult[];
+    drillProfile?: DrillProfile;
   }
 >;
 
