@@ -1,0 +1,2509 @@
+{
+  "id": "TJ0q3IsuaR",
+  "stage": {
+    "id": "TJ0q3IsuaR",
+    "name": "Covert Influence & Defense",
+    "languageDirective": "Deliver the entire course in English. Technical terms should be presented in English, with a brief explanation if necessary. Avoid overly academic jargon where simpler phrasing can convey the same meaning. Ensure clarity for advanced practitioners.",
+    "videoManifest": {},
+    "style": "interactive",
+    "createdAt": 1790919498767,
+    "updatedAt": 1791066784781,
+    "agentIds": [
+      "default-1",
+      "default-2",
+      "default-3",
+      "default-4",
+      "default-5",
+      "default-6"
+    ]
+  },
+  "scenes": [
+    {
+      "id": "scene_U5vqi_CTNv",
+      "stageId": "TJ0q3IsuaR",
+      "title": "History & Science of Covert Suggestion",
+      "order": 1,
+      "actions": [
+        {
+          "id": "action_i-YSy3yd",
+          "type": "speech",
+          "text": "Hello everyone, and welcome! Today, we're going to delve into a fascinating and often misunderstood area: the history and science of covert suggestion. It sounds like something out of a spy novel, doesn't it? But there's a real scientific and historical basis to these techniques.",
+          "audioId": "tts_s1_action_i-YSy3yd",
+          "audioUrl": "/api/classroom-media/TJ0q3IsuaR/audio/tts_s1_action_i-YSy3yd.mp3"
+        },
+        {
+          "id": "action_-F4fvjUW",
+          "type": "spotlight",
+          "elementId": "text_J_7m-X0Q"
+        },
+        {
+          "id": "action_ttgznk-X",
+          "type": "speech",
+          "text": "Our title for today is 'History & Science of Covert Suggestion'. We'll be exploring the roots and science of psychological influence, and importantly, separating fact from the fiction often portrayed in popular culture.",
+          "audioId": "tts_s1_action_ttgznk-X",
+          "audioUrl": "/api/classroom-media/TJ0q3IsuaR/audio/tts_s1_action_ttgznk-X.mp3"
+        },
+        {
+          "id": "action_QCyOwA_f",
+          "type": "spotlight",
+          "elementId": "text_5NlyBO4Q"
+        },
+        {
+          "id": "action_DuqRZ3XI",
+          "type": "speech",
+          "text": "Let's look at our key points. We'll start by examining some classified Cold War research, such as Project Artichoke and MKUltra. These projects, while ethically controversial, did yield some insights into the human mind under pressure.",
+          "audioId": "tts_s1_action_DuqRZ3XI",
+          "audioUrl": "/api/classroom-media/TJ0q3IsuaR/audio/tts_s1_action_DuqRZ3XI.mp3"
+        },
+        {
+          "id": "action_r_uenezb",
+          "type": "spotlight",
+          "elementId": "text_PG3RtWmJ"
+        },
+        {
+          "id": "action_QFsLnvre",
+          "type": "speech",
+          "text": "Then, we'll move on to the principles of neuro-linguistic compliance, looking at its early uses and how language can be used to influence thought patterns.",
+          "audioId": "tts_s1_action_QFsLnvre",
+          "audioUrl": "/api/classroom-media/TJ0q3IsuaR/audio/tts_s1_action_QFsLnvre.mp3"
+        },
+        {
+          "id": "action_B1yBeDW7",
+          "type": "spotlight",
+          "elementId": "text_e23pPf1_"
+        },
+        {
+          "id": "action_tHM8MqwG",
+          "type": "speech",
+          "text": "We'll also explore the concept of conversational trance, which is about identifying and inducing states where people are more open to suggestion.",
+          "audioId": "tts_s1_action_tHM8MqwG",
+          "audioUrl": "/api/classroom-media/TJ0q3IsuaR/audio/tts_s1_action_tHM8MqwG.mp3"
+        },
+        {
+          "id": "action_NiMHXJZP",
+          "type": "spotlight",
+          "elementId": "text_hG-DjLHb"
+        },
+        {
+          "id": "action_S2p0GVhV",
+          "type": "speech",
+          "text": "Finally, a crucial part of our discussion will be separating the genuine science from the often exaggerated or entirely fictionalized depictions we see in movies and books.",
+          "audioId": "tts_s1_action_S2p0GVhV",
+          "audioUrl": "/api/classroom-media/TJ0q3IsuaR/audio/tts_s1_action_S2p0GVhV.mp3"
+        },
+        {
+          "id": "action_WtRAa83q",
+          "type": "spotlight",
+          "elementId": "text_MGCPASQT"
+        },
+        {
+          "id": "action_OkUGLss0",
+          "type": "speech",
+          "text": "This topic touches on psychology, history, and even ethics, so there's a lot to unpack. Let's begin by diving into some of that Cold War research.",
+          "audioId": "tts_s1_action_OkUGLss0",
+          "audioUrl": "/api/classroom-media/TJ0q3IsuaR/audio/tts_s1_action_OkUGLss0.mp3"
+        }
+      ],
+      "outlineId": "scene_1",
+      "createdAt": 1790919503619,
+      "updatedAt": 1790919503619,
+      "type": "slide",
+      "content": {
+        "type": "slide",
+        "canvas": {
+          "id": "VHLyXecWhj-iPzdNpizRh",
+          "viewportSize": 1000,
+          "viewportRatio": 0.5625,
+          "theme": {
+            "backgroundColor": "#ffffff",
+            "themeColors": [
+              "#5b9bd5",
+              "#ed7d31",
+              "#a5a5a5",
+              "#ffc000",
+              "#4472c4"
+            ],
+            "fontColor": "#333333",
+            "fontName": "Microsoft YaHei",
+            "outline": {
+              "color": "#d14424",
+              "width": 2,
+              "style": "solid"
+            },
+            "shadow": {
+              "h": 0,
+              "v": 0,
+              "blur": 10,
+              "color": "#000000"
+            }
+          },
+          "elements": [
+            {
+              "id": "text_J_7m-X0Q",
+              "type": "text",
+              "left": 60,
+              "top": 50,
+              "width": 880,
+              "height": 76,
+              "content": "<p style=\"font-size: 32px;\"><strong>History & Science of Covert Suggestion</strong></p>",
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#333333",
+              "rotate": 0
+            },
+            {
+              "id": "text_5NlyBO4Q",
+              "type": "text",
+              "left": 60,
+              "top": 146,
+              "width": 880,
+              "height": 58,
+              "content": "<p style=\"font-size: 20px;\">Exploring the roots and science of psychological influence.</p>",
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#333333",
+              "rotate": 0
+            },
+            {
+              "id": "shape_vqq3Zick",
+              "type": "shape",
+              "left": 60,
+              "top": 224,
+              "width": 880,
+              "height": 1,
+              "path": "M 0 0 L 1 0 L 1 1 L 0 1 Z",
+              "viewBox": [
+                1,
+                1
+              ],
+              "fill": "#cccccc",
+              "fixedRatio": false,
+              "rotate": 0
+            },
+            {
+              "id": "text_KaIv1iMJ",
+              "type": "text",
+              "left": 60,
+              "top": 260,
+              "width": 200,
+              "height": 43,
+              "content": "<p style=\"font-size: 18px;\"><strong>Key Points:</strong></p>",
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#333333",
+              "rotate": 0
+            },
+            {
+              "id": "text_PG3RtWmJ",
+              "type": "text",
+              "left": 60,
+              "top": 313,
+              "width": 880,
+              "height": 70,
+              "content": "<p style=\"font-size: 18px;\">• Cold War research: Artichoke, MKUltra.</p>",
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#333333",
+              "rotate": 0
+            },
+            {
+              "id": "text_e23pPf1_",
+              "type": "text",
+              "left": 60,
+              "top": 393,
+              "width": 880,
+              "height": 70,
+              "content": "<p style=\"font-size: 18px;\">• Neuro-linguistic compliance: principles, early uses.</p>",
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#333333",
+              "rotate": 0
+            },
+            {
+              "id": "text_hG-DjLHb",
+              "type": "text",
+              "left": 60,
+              "top": 473,
+              "width": 880,
+              "height": 70,
+              "content": "<p style=\"font-size: 18px;\">• Conversational trance: identifying suggestibility.</p>",
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#333333",
+              "rotate": 0
+            },
+            {
+              "id": "text_MGCPASQT",
+              "type": "text",
+              "left": 60,
+              "top": 553,
+              "width": 880,
+              "height": 70,
+              "content": "<p style=\"font-size: 18px;\">• Separating fact from Hollywood fiction.</p>",
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#333333",
+              "rotate": 0
+            }
+          ],
+          "background": {
+            "type": "solid",
+            "color": "#ffffff"
+          }
+        }
+      }
+    },
+    {
+      "id": "scene_uZIssc6oU8",
+      "stageId": "TJ0q3IsuaR",
+      "title": "Mechanics of Conversational Elicitation",
+      "order": 2,
+      "actions": [
+        {
+          "id": "action_u4QDTMXa",
+          "type": "speech",
+          "text": "Hello everyone, and welcome! Today, we're diving into the fascinating and crucial topic of Conversational Elicitation. This is all about the techniques used to gather information effectively through conversation, and understanding their underlying psychological mechanisms.",
+          "audioId": "tts_s2_action_u4QDTMXa",
+          "audioUrl": "/api/classroom-media/TJ0q3IsuaR/audio/tts_s2_action_u4QDTMXa.mp3"
+        },
+        {
+          "id": "action_ulHfUsvq",
+          "type": "spotlight",
+          "elementId": "text_eOIIcK_S"
+        },
+        {
+          "id": "action_HBcnw8ZV",
+          "type": "speech",
+          "text": "The slide here, titled 'Mechanics of Conversational Elicitation,' gives us a roadmap. We'll be exploring the operational techniques and the psychological principles that make them work.",
+          "audioId": "tts_s2_action_HBcnw8ZV",
+          "audioUrl": "/api/classroom-media/TJ0q3IsuaR/audio/tts_s2_action_HBcnw8ZV.mp3"
+        },
+        {
+          "id": "action_8IXiEoIf",
+          "type": "spotlight",
+          "elementId": "text_9ppL9sNa"
+        },
+        {
+          "id": "action_zhqW_zSD",
+          "type": "speech",
+          "text": "Under 'Key Techniques,' we see four main areas we'll cover today. These are the tools and strategies that skillful interviewers or interrogators might employ.",
+          "audioId": "tts_s2_action_zhqW_zSD",
+          "audioUrl": "/api/classroom-media/TJ0q3IsuaR/audio/tts_s2_action_zhqW_zSD.mp3"
+        },
+        {
+          "id": "action_xgeLunKs",
+          "type": "spotlight",
+          "elementId": "text_OKAaiGFo"
+        },
+        {
+          "id": "action_Ato6VbHM",
+          "type": "speech",
+          "text": "First up is 'Pacing and Leading.' This is fundamental. It’s about establishing a connection, a sense of understanding and trust with the person you're speaking with – that's the 'pacing' part. Once that rapport is built, you can then 'lead' the conversation, guiding it toward the information you need.",
+          "audioId": "tts_s2_action_Ato6VbHM",
+          "audioUrl": "/api/classroom-media/TJ0q3IsuaR/audio/tts_s2_action_Ato6VbHM.mp3"
+        },
+        {
+          "id": "action_I5GoFlCC",
+          "type": "spotlight",
+          "elementId": "text_VCMpGP4o"
+        },
+        {
+          "id": "action_Cg-UJ_mV",
+          "type": "speech",
+          "text": "Next, we have 'Pattern Interrupts & Sensory Anchoring.' This involves subtly disrupting a person's usual way of thinking or reacting. By interrupting their patterns, or by using specific sensory cues, you can make them more open to suggestion or less critical of information presented.",
+          "audioId": "tts_s2_action_Cg-UJ_mV",
+          "audioUrl": "/api/classroom-media/TJ0q3IsuaR/audio/tts_s2_action_Cg-UJ_mV.mp3"
+        },
+        {
+          "id": "action_NKw8-rJi",
+          "type": "spotlight",
+          "elementId": "text_-S-rIlHi"
+        },
+        {
+          "id": "action_cSYUjstt",
+          "type": "speech",
+          "text": "Then there's 'Cognitive Overload & Ego-Trapping.' These are more advanced techniques. Cognitive overload means overwhelming someone's ability to think critically, perhaps by presenting too much information too quickly or in a confusing way. Ego-trapping involves appealing to a person's sense of self or pride to elicit a certain response or confession.",
+          "audioId": "tts_s2_action_cSYUjstt",
+          "audioUrl": "/api/classroom-media/TJ0q3IsuaR/audio/tts_s2_action_cSYUjstt.mp3"
+        },
+        {
+          "id": "action_mh5wrA48",
+          "type": "spotlight",
+          "elementId": "text_ZsKGUV6_"
+        },
+        {
+          "id": "action_y38HhMNk",
+          "type": "speech",
+          "text": "Finally, we'll touch upon 'False Confession Dynamics.' This delves into why and how someone might confess to something they didn't do. It examines the psychological factors and specific elicitation techniques that can lead to such outcomes, highlighting the immense power and ethical considerations of these methods.",
+          "audioId": "tts_s2_action_y38HhMNk",
+          "audioUrl": "/api/classroom-media/TJ0q3IsuaR/audio/tts_s2_action_y38HhMNk.mp3"
+        }
+      ],
+      "outlineId": "scene_2",
+      "createdAt": 1790919512739,
+      "updatedAt": 1790919512739,
+      "type": "slide",
+      "content": {
+        "type": "slide",
+        "canvas": {
+          "id": "S6YJm__zoBxP4Bv9qG-yg",
+          "viewportSize": 1000,
+          "viewportRatio": 0.5625,
+          "theme": {
+            "backgroundColor": "#ffffff",
+            "themeColors": [
+              "#5b9bd5",
+              "#ed7d31",
+              "#a5a5a5",
+              "#ffc000",
+              "#4472c4"
+            ],
+            "fontColor": "#333333",
+            "fontName": "Microsoft YaHei",
+            "outline": {
+              "color": "#d14424",
+              "width": 2,
+              "style": "solid"
+            },
+            "shadow": {
+              "h": 0,
+              "v": 0,
+              "blur": 10,
+              "color": "#000000"
+            }
+          },
+          "elements": [
+            {
+              "id": "text_eOIIcK_S",
+              "type": "text",
+              "left": 60,
+              "top": 50,
+              "width": 880,
+              "height": 76,
+              "content": "<p style=\"font-size: 32px;\"><strong>Mechanics of Conversational Elicitation</strong></p>",
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#333333",
+              "rotate": 0
+            },
+            {
+              "id": "text_NIy1nunD",
+              "type": "text",
+              "left": 60,
+              "top": 140,
+              "width": 880,
+              "height": 49,
+              "content": "<p style=\"font-size: 18px;\">Operational techniques and their psychological mechanisms.</p>",
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#333333",
+              "rotate": 0
+            },
+            {
+              "id": "text_9ppL9sNa",
+              "type": "text",
+              "left": 60,
+              "top": 220,
+              "width": 300,
+              "height": 46,
+              "content": "<p style=\"font-size: 24px;\"><strong>Key Techniques:</strong></p>",
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#333333",
+              "rotate": 0
+            },
+            {
+              "id": "text_OKAaiGFo",
+              "type": "text",
+              "left": 80,
+              "top": 270,
+              "width": 400,
+              "height": 70,
+              "content": "<p style=\"font-size: 18px;\"><strong>1. Pacing and Leading</strong></p><p style=\"font-size: 16px;\">Establish rapport, guide flow.</p>",
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#333333",
+              "rotate": 0
+            },
+            {
+              "id": "text_VCMpGP4o",
+              "type": "text",
+              "left": 520,
+              "top": 270,
+              "width": 400,
+              "height": 70,
+              "content": "<p style=\"font-size: 18px;\"><strong>2. Pattern Interrupts & Sensory Anchoring</strong></p><p style=\"font-size: 16px;\">Disrupt cognition for compliance.</p>",
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#333333",
+              "rotate": 0
+            },
+            {
+              "id": "text_-S-rIlHi",
+              "type": "text",
+              "left": 80,
+              "top": 370,
+              "width": 400,
+              "height": 70,
+              "content": "<p style=\"font-size: 18px;\"><strong>3. Cognitive Overload & Ego-Trapping</strong></p><p style=\"font-size: 16px;\">Overwhelm critical thinking.</p>",
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#333333",
+              "rotate": 0
+            },
+            {
+              "id": "text_ZsKGUV6_",
+              "type": "text",
+              "left": 520,
+              "top": 370,
+              "width": 400,
+              "height": 70,
+              "content": "<p style=\"font-size: 18px;\"><strong>4. False Confession Dynamics</strong></p><p style=\"font-size: 16px;\">Psychological factors and techniques.</p>",
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#333333",
+              "rotate": 0
+            }
+          ],
+          "background": {
+            "type": "solid",
+            "color": "#ffffff"
+          }
+        }
+      }
+    },
+    {
+      "id": "scene_-tcZGLBmyD",
+      "stageId": "TJ0q3IsuaR",
+      "title": "Knowledge Check: Elicitation Techniques",
+      "order": 3,
+      "actions": [
+        {
+          "id": "action_6sOWTnBi",
+          "type": "speech",
+          "text": "Alright, we've covered some key elicitation techniques. Now, let's see how well those concepts have settled in. Please try the following questions on your own. I'll be here to go over everything with you once you've submitted your answers.",
+          "audioId": "tts_s3_action_6sOWTnBi",
+          "audioUrl": "/api/classroom-media/TJ0q3IsuaR/audio/tts_s3_action_6sOWTnBi.mp3"
+        }
+      ],
+      "outlineId": "scene_3",
+      "createdAt": 1790919520059,
+      "updatedAt": 1790919520059,
+      "type": "quiz",
+      "content": {
+        "type": "quiz",
+        "questions": [
+          {
+            "id": "q1",
+            "type": "single",
+            "question": "Which elicitation technique is most effective for controlling the pace of a conversation and subtly guiding the subject towards a desired outcome, often by mirroring their language and emotional state?",
+            "options": [
+              {
+                "value": "A",
+                "label": "Pattern Interrupt"
+              },
+              {
+                "value": "B",
+                "label": "Cognitive Overload"
+              },
+              {
+                "value": "C",
+                "label": "Pacing and Leading"
+              },
+              {
+                "value": "D",
+                "label": "False Confession"
+              }
+            ],
+            "answer": [
+              "C"
+            ],
+            "analysis": "Pacing and Leading involves matching the subject's current state (pacing) and then gradually shifting it (leading) to influence their thoughts and behaviors. Mirroring language and emotional state is a core component of pacing.",
+            "points": 15,
+            "hasAnswer": true
+          },
+          {
+            "id": "q2",
+            "type": "multiple",
+            "question": "In the context of elicitation techniques, which of the following scenarios best illustrate the concepts of Cognitive Overload and Pattern Interrupts? (Select all that apply)",
+            "options": [
+              {
+                "value": "A",
+                "label": "Bombarding a subject with an overwhelming amount of complex, contradictory information to induce stress and confusion, making them more susceptible to suggestion."
+              },
+              {
+                "value": "B",
+                "label": "Suddenly changing the topic or introducing an unexpected element into the conversation to disrupt the subject's established thought process and create an opening for influence."
+              },
+              {
+                "value": "C",
+                "label": "Establishing rapport and trust by consistently mirroring the subject's body language and vocal tone."
+              },
+              {
+                "value": "D",
+                "label": "Presenting a scenario where the subject is convinced they have already confessed, thereby eliciting an actual confession."
+              }
+            ],
+            "answer": [
+              "A",
+              "B"
+            ],
+            "analysis": "Cognitive Overload involves overwhelming a subject's mental processing capacity, making them prone to error or suggestion. A Pattern Interrupt is a technique that breaks a subject's habitual thinking or behavior, creating a moment of surprise or confusion that can be exploited.",
+            "points": 20,
+            "hasAnswer": true
+          },
+          {
+            "id": "q3",
+            "type": "short_answer",
+            "question": "Identify and explain one significant psychological factor that contributes to the phenomenon of false confessions.",
+            "commentPrompt": "Grading Rubric: (1) Identification of a relevant factor (e.g., long/intense interrogation, suggestive questioning, fear, compliance, substance abuse, mental impairment) - 40% (2) Clear explanation of how this factor leads to or increases the likelihood of a false confession - 40% (3) Coherent and clear writing - 20%",
+            "analysis": "A key factor contributing to false confessions is the psychological pressure exerted during lengthy or intense interrogations. This pressure, combined with factors like sleep deprivation, fear of consequences, or a desire to end the interrogation, can lead individuals, especially vulnerable ones, to confess to crimes they did not commit to escape the immediate stress, even if it means falsely admitting guilt.",
+            "points": 25,
+            "hasAnswer": false
+          }
+        ]
+      }
+    },
+    {
+      "id": "scene_4HZvwIQiC9",
+      "stageId": "TJ0q3IsuaR",
+      "title": "Operational Mental Defense Strategies",
+      "order": 4,
+      "actions": [
+        {
+          "id": "action_Hm6nMCp0",
+          "type": "spotlight",
+          "elementId": "text_wZqq4YpV"
+        },
+        {
+          "id": "action_PlTEkDKB",
+          "type": "speech",
+          "text": "Welcome, everyone! Today, we're diving into a crucial aspect of information security and personal resilience: Operational Mental Defense Strategies. This is all about how we protect ourselves and our organizations from unseen influences.",
+          "audioId": "tts_s4_action_PlTEkDKB",
+          "audioUrl": "/api/classroom-media/TJ0q3IsuaR/audio/tts_s4_action_PlTEkDKB.mp3"
+        },
+        {
+          "id": "action_MFXrSUYq",
+          "type": "spotlight",
+          "elementId": "text_TP-TvpJV"
+        },
+        {
+          "id": "action_Sz7Rn6_I",
+          "type": "speech",
+          "text": "Specifically, we'll focus on tactical approaches to defend against covert psychological manipulation and elicitation. Think of this as building your mental immune system against subtle attacks on your thinking.",
+          "audioId": "tts_s4_action_Sz7Rn6_I",
+          "audioUrl": "/api/classroom-media/TJ0q3IsuaR/audio/tts_s4_action_Sz7Rn6_I.mp3"
+        },
+        {
+          "id": "action_wnYEI6Pl",
+          "type": "spotlight",
+          "elementId": "text_BJrODPgs"
+        },
+        {
+          "id": "action_SzrKNTrT",
+          "type": "speech",
+          "text": "Our first strategy is 'Tactical Pauses.' This involves consciously creating small pockets of silence in a conversation.",
+          "audioId": "tts_s4_action_SzrKNTrT",
+          "audioUrl": "/api/classroom-media/TJ0q3IsuaR/audio/tts_s4_action_SzrKNTrT.mp3"
+        },
+        {
+          "id": "action_Lax8XQf5",
+          "type": "spotlight",
+          "elementId": "text_PLAVwJNy"
+        },
+        {
+          "id": "action_io1ikgVO",
+          "type": "speech",
+          "text": "This pause isn't just about silence; it's about creating crucial space. In that space, you can critically assess what's being said and formulate a more considered response, rather than reacting immediately.",
+          "audioId": "tts_s4_action_io1ikgVO",
+          "audioUrl": "/api/classroom-media/TJ0q3IsuaR/audio/tts_s4_action_io1ikgVO.mp3"
+        },
+        {
+          "id": "action_UkBjyV0Q",
+          "type": "spotlight",
+          "elementId": "text_6sAwti2X"
+        },
+        {
+          "id": "action_cXnILxcA",
+          "type": "speech",
+          "text": "Next up, 'Identifying Hooks.' This is about training ourselves to recognize manipulative linguistic patterns.",
+          "audioId": "tts_s4_action_cXnILxcA",
+          "audioUrl": "/api/classroom-media/TJ0q3IsuaR/audio/tts_s4_action_cXnILxcA.mp3"
+        },
+        {
+          "id": "action_u7A-U407",
+          "type": "spotlight",
+          "elementId": "text_Mx5o6wdC"
+        },
+        {
+          "id": "action_t6u2gUd3",
+          "type": "speech",
+          "text": "These hooks are subtle phrases or questions designed to draw you in, elicit specific information, or subtly shift your perspective. Recognizing them is the first step to disarming their influence.",
+          "audioId": "tts_s4_action_t6u2gUd3",
+          "audioUrl": "/api/classroom-media/TJ0q3IsuaR/audio/tts_s4_action_t6u2gUd3.mp3"
+        },
+        {
+          "id": "action_Wiug-nSS",
+          "type": "spotlight",
+          "elementId": "text_dwzknGZh"
+        },
+        {
+          "id": "action_HmILk_Y0",
+          "type": "speech",
+          "text": "Our third strategy involves 'Cognitive Reset Anchors.' These are personal mental recalibration methods.",
+          "audioId": "tts_s4_action_HmILk_Y0",
+          "audioUrl": "/api/classroom-media/TJ0q3IsuaR/audio/tts_s4_action_HmILk_Y0.mp3"
+        },
+        {
+          "id": "action_WBpY5Lez",
+          "type": "spotlight",
+          "elementId": "text_Is1pT5xX"
+        },
+        {
+          "id": "action_DDyGfILa",
+          "type": "speech",
+          "text": "Think of these as mental 'refresh' buttons. They could be a specific phrase, a visualization, or even a physical gesture that helps you snap back to a neutral, objective state of mind when you feel influenced.",
+          "audioId": "tts_s4_action_DDyGfILa",
+          "audioUrl": "/api/classroom-media/TJ0q3IsuaR/audio/tts_s4_action_DDyGfILa.mp3"
+        },
+        {
+          "id": "action_8r4PJXsI",
+          "type": "spotlight",
+          "elementId": "text_YWDTN8xo"
+        },
+        {
+          "id": "action_jG_cLPBI",
+          "type": "speech",
+          "text": "Finally, we have 'Conversational Deflection' and 'Informational Ambiguity.' This is about skillfully evading direct influence.",
+          "audioId": "tts_s4_action_jG_cLPBI",
+          "audioUrl": "/api/classroom-media/TJ0q3IsuaR/audio/tts_s4_action_jG_cLPBI.mp3"
+        },
+        {
+          "id": "action_g_aiJ__Y",
+          "type": "spotlight",
+          "elementId": "text_VBfZYcAR"
+        },
+        {
+          "id": "action_ARGFosl5",
+          "type": "speech",
+          "text": "This strategy involves using indirect language, changing the subject gracefully, or providing just enough information to satisfy a question without revealing anything sensitive. It's about controlling the flow of information.",
+          "audioId": "tts_s4_action_ARGFosl5",
+          "audioUrl": "/api/classroom-media/TJ0q3IsuaR/audio/tts_s4_action_ARGFosl5.mp3"
+        }
+      ],
+      "outlineId": "scene_4",
+      "createdAt": 1790919530082,
+      "updatedAt": 1790919530082,
+      "type": "slide",
+      "content": {
+        "type": "slide",
+        "canvas": {
+          "id": "mnq90JZOBAa5q7wlRKU-s",
+          "viewportSize": 1000,
+          "viewportRatio": 0.5625,
+          "theme": {
+            "backgroundColor": "#ffffff",
+            "themeColors": [
+              "#5b9bd5",
+              "#ed7d31",
+              "#a5a5a5",
+              "#ffc000",
+              "#4472c4"
+            ],
+            "fontColor": "#333333",
+            "fontName": "Microsoft YaHei",
+            "outline": {
+              "color": "#d14424",
+              "width": 2,
+              "style": "solid"
+            },
+            "shadow": {
+              "h": 0,
+              "v": 0,
+              "blur": 10,
+              "color": "#000000"
+            }
+          },
+          "elements": [
+            {
+              "id": "text_wZqq4YpV",
+              "type": "text",
+              "left": 60,
+              "top": 50,
+              "width": 880,
+              "height": 76,
+              "content": "<p style=\"font-size:32px;\"><strong>Operational Mental Defense Strategies</strong></p>",
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#333333",
+              "rotate": 0
+            },
+            {
+              "id": "text_TP-TvpJV",
+              "type": "text",
+              "left": 60,
+              "top": 140,
+              "width": 880,
+              "height": 46,
+              "content": "<p style=\"font-size:16px;\">Tactical Approaches Against Covert Psychological Influence & Elicitation</p>",
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#333333",
+              "rotate": 0
+            },
+            {
+              "id": "shape_SaiqpmZA",
+              "type": "shape",
+              "left": 60,
+              "top": 200,
+              "width": 880,
+              "height": 2,
+              "path": "M 0 0 L 1 0 L 1 1 L 0 1 Z",
+              "viewBox": [
+                1,
+                1
+              ],
+              "fill": "#cccccc",
+              "fixedRatio": false,
+              "rotate": 0
+            },
+            {
+              "id": "text_BJrODPgs",
+              "type": "text",
+              "left": 60,
+              "top": 240,
+              "width": 200,
+              "height": 58,
+              "content": "<p style=\"font-size:24px;\"><strong>1. Tactical Pauses</strong></p>",
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#333333",
+              "rotate": 0
+            },
+            {
+              "id": "text_PLAVwJNy",
+              "type": "text",
+              "left": 60,
+              "top": 300,
+              "width": 280,
+              "height": 70,
+              "content": "<p style=\"font-size:16px;\">Creating space for critical assessment and response.</p>",
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#333333",
+              "rotate": 0
+            },
+            {
+              "id": "text_6sAwti2X",
+              "type": "text",
+              "left": 380,
+              "top": 240,
+              "width": 250,
+              "height": 58,
+              "content": "<p style=\"font-size:24px;\"><strong>2. Identifying Hooks</strong></p>",
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#333333",
+              "rotate": 0
+            },
+            {
+              "id": "text_Mx5o6wdC",
+              "type": "text",
+              "left": 380,
+              "top": 300,
+              "width": 280,
+              "height": 70,
+              "content": "<p style=\"font-size:16px;\">Recognizing manipulative linguistic patterns.</p>",
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#333333",
+              "rotate": 0
+            },
+            {
+              "id": "text_dwzknGZh",
+              "type": "text",
+              "left": 680,
+              "top": 240,
+              "width": 250,
+              "height": 58,
+              "content": "<p style=\"font-size:24px;\"><strong>3. Cognitive Reset Anchors</strong></p>",
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#333333",
+              "rotate": 0
+            },
+            {
+              "id": "text_Is1pT5xX",
+              "type": "text",
+              "left": 680,
+              "top": 300,
+              "width": 280,
+              "height": 70,
+              "content": "<p style=\"font-size:16px;\">Developing personal mental recalibration methods.</p>",
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#333333",
+              "rotate": 0
+            },
+            {
+              "id": "text_YWDTN8xo",
+              "type": "text",
+              "left": 60,
+              "top": 390,
+              "width": 350,
+              "height": 58,
+              "content": "<p style=\"font-size:24px;\"><strong>4. Conversational Deflection</strong></p>",
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#333333",
+              "rotate": 0
+            },
+            {
+              "id": "text_VBfZYcAR",
+              "type": "text",
+              "left": 60,
+              "top": 450,
+              "width": 400,
+              "height": 70,
+              "content": "<p style=\"font-size:16px;\">Evading direct influence via ambiguity and redirection.</p>",
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#333333",
+              "rotate": 0
+            }
+          ],
+          "background": {
+            "type": "solid",
+            "color": "#ffffff"
+          }
+        }
+      }
+    },
+    {
+      "id": "scene_jzy_cbNVDp",
+      "stageId": "TJ0q3IsuaR",
+      "title": "Tactical Counter-Offense & Reversal",
+      "order": 5,
+      "actions": [
+        {
+          "id": "action_4OwhVTY1",
+          "type": "spotlight",
+          "elementId": "text_JBPfeqAl"
+        },
+        {
+          "id": "action_56talCUE",
+          "type": "speech",
+          "text": "Now that we've explored how influence can be subtly applied, let's turn our attention to the crucial skill of tactical counter-offense and reversal. This is where we learn to not only identify but actively disrupt and turn the tables on covert influence attempts.",
+          "audioId": "tts_s5_action_56talCUE",
+          "audioUrl": "/api/classroom-media/TJ0q3IsuaR/audio/tts_s5_action_56talCUE.mp3"
+        },
+        {
+          "id": "action_GBbTHzPw",
+          "type": "spotlight",
+          "elementId": "text_qhrEbZCj"
+        },
+        {
+          "id": "action_DDyB2Imp",
+          "type": "speech",
+          "text": "To do this effectively, we'll focus on several key techniques.",
+          "audioId": "tts_s5_action_DDyB2Imp",
+          "audioUrl": "/api/classroom-media/TJ0q3IsuaR/audio/tts_s5_action_DDyB2Imp.mp3"
+        },
+        {
+          "id": "action_N8dUowyQ",
+          "type": "spotlight",
+          "elementId": "text_1LZWgLgQ"
+        },
+        {
+          "id": "action_8Qmm9r8G",
+          "type": "speech",
+          "text": "First, 'Subtle Conversational Turning.' This involves regaining control of a conversation indirectly, often by reframing the topic or introducing a new, related point that shifts the focus away from the influencer's agenda.",
+          "audioId": "tts_s5_action_8Qmm9r8G",
+          "audioUrl": "/api/classroom-media/TJ0q3IsuaR/audio/tts_s5_action_8Qmm9r8G.mp3"
+        },
+        {
+          "id": "action_5XZHoznj",
+          "type": "spotlight",
+          "elementId": "text_j_xCnwgY"
+        },
+        {
+          "id": "action_k9pwP-6C",
+          "type": "speech",
+          "text": "Next is 'Elicitation Counter-Probing.' When someone tries to elicit information from you in a way that feels manipulative, counter-probing means challenging their assumptions or the very premise of their question. You turn their attempt to extract information back on them.",
+          "audioId": "tts_s5_action_k9pwP-6C",
+          "audioUrl": "/api/classroom-media/TJ0q3IsuaR/audio/tts_s5_action_k9pwP-6C.mp3"
+        },
+        {
+          "id": "action_bf0v7tmS",
+          "type": "spotlight",
+          "elementId": "text_MV_fgQxG"
+        },
+        {
+          "id": "action_pKncWTSm",
+          "type": "speech",
+          "text": "Then we have 'Feigned Ignorance.' This is a powerful tactic to disarm aggressive elicitation. By pretending not to understand or know something, you can make the other person reveal more of their strategy or intentions, and you avoid revealing your own hand.",
+          "audioId": "tts_s5_action_pKncWTSm",
+          "audioUrl": "/api/classroom-media/TJ0q3IsuaR/audio/tts_s5_action_pKncWTSm.mp3"
+        },
+        {
+          "id": "action_4iMzww1y",
+          "type": "spotlight",
+          "elementId": "text_cE-6UeCU"
+        },
+        {
+          "id": "action_Cy_CAOku",
+          "type": "speech",
+          "text": "Finally, 'Narrative Disruption.' This is about dismantling the story or reality the influencer is trying to construct. By introducing facts, alternative perspectives, or logical inconsistencies, you break down their constructed narrative and expose its flaws.",
+          "audioId": "tts_s5_action_Cy_CAOku",
+          "audioUrl": "/api/classroom-media/TJ0q3IsuaR/audio/tts_s5_action_Cy_CAOku.mp3"
+        },
+        {
+          "id": "action_SVGhMEWT",
+          "type": "spotlight",
+          "elementId": "text_64BuQE77"
+        },
+        {
+          "id": "action_Kn7zK8jP",
+          "type": "speech",
+          "text": "Mastering these techniques allows us to effectively disrupt and reverse covert influence attempts, protecting ourselves and potentially turning the situation to our advantage.",
+          "audioId": "tts_s5_action_Kn7zK8jP",
+          "audioUrl": "/api/classroom-media/TJ0q3IsuaR/audio/tts_s5_action_Kn7zK8jP.mp3"
+        }
+      ],
+      "outlineId": "scene_5",
+      "createdAt": 1790919538415,
+      "updatedAt": 1790919538415,
+      "type": "slide",
+      "content": {
+        "type": "slide",
+        "canvas": {
+          "id": "ONP6MS2i5w1E0zTZMpLxV",
+          "viewportSize": 1000,
+          "viewportRatio": 0.5625,
+          "theme": {
+            "backgroundColor": "#ffffff",
+            "themeColors": [
+              "#5b9bd5",
+              "#ed7d31",
+              "#a5a5a5",
+              "#ffc000",
+              "#4472c4"
+            ],
+            "fontColor": "#333333",
+            "fontName": "Microsoft YaHei",
+            "outline": {
+              "color": "#d14424",
+              "width": 2,
+              "style": "solid"
+            },
+            "shadow": {
+              "h": 0,
+              "v": 0,
+              "blur": 10,
+              "color": "#000000"
+            }
+          },
+          "elements": [
+            {
+              "id": "text_6fIg8hs0",
+              "type": "text",
+              "left": 60,
+              "top": 50,
+              "width": 880,
+              "height": 76,
+              "content": "<p style=\"font-size: 32px;\"><strong>Tactical Counter-Offense & Reversal</strong></p>",
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#333333",
+              "rotate": 0
+            },
+            {
+              "id": "text_64BuQE77",
+              "type": "text",
+              "left": 60,
+              "top": 130,
+              "width": 880,
+              "height": 58,
+              "content": "<p style=\"font-size: 24px;\">Disrupting Covert Influence Attempts</p>",
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#333333",
+              "rotate": 0
+            },
+            {
+              "id": "text_qhrEbZCj",
+              "type": "text",
+              "left": 60,
+              "top": 220,
+              "width": 200,
+              "height": 43,
+              "content": "<p style=\"font-size: 18px;\"><strong>Key Techniques:</strong></p>",
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#333333",
+              "rotate": 0
+            },
+            {
+              "id": "text_1LZWgLgQ",
+              "type": "text",
+              "left": 80,
+              "top": 270,
+              "width": 400,
+              "height": 64,
+              "content": "<p style=\"font-size: 18px;\">• Subtle Conversational Turning</p>",
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#333333",
+              "rotate": 0
+            },
+            {
+              "id": "text_j_xCnwgY",
+              "type": "text",
+              "left": 80,
+              "top": 334,
+              "width": 400,
+              "height": 64,
+              "content": "<p style=\"font-size: 18px;\">• Elicitation Counter-Probing</p>",
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#333333",
+              "rotate": 0
+            },
+            {
+              "id": "text_MV_fgQxG",
+              "type": "text",
+              "left": 80,
+              "top": 398,
+              "width": 400,
+              "height": 64,
+              "content": "<p style=\"font-size: 18px;\">• Feigned Ignorance</p>",
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#333333",
+              "rotate": 0
+            },
+            {
+              "id": "text_cE-6UeCU",
+              "type": "text",
+              "left": 80,
+              "top": 462,
+              "width": 400,
+              "height": 64,
+              "content": "<p style=\"font-size: 18px;\">• Narrative Disruption</p>",
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#333333",
+              "rotate": 0
+            },
+            {
+              "id": "text_JBPfeqAl",
+              "type": "text",
+              "left": 500,
+              "top": 220,
+              "width": 440,
+              "height": 94,
+              "content": "<p style=\"font-size: 18px;\">Master advanced strategies for identifying and neutralizing manipulative tactics.</p><p style=\"font-size: 18px;\">Learn to reclaim control in conversations.</p>",
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#333333",
+              "rotate": 0
+            }
+          ],
+          "background": {
+            "type": "solid",
+            "color": "#ffffff"
+          }
+        }
+      }
+    },
+    {
+      "id": "scene_cia_matrix_06",
+      "stageId": "TJ0q3IsuaR",
+      "title": "The CIA Elicitation Matrix: Active Elicitation Tactics",
+      "order": 6,
+      "outlineId": "scene_6",
+      "type": "slide",
+      "createdAt": 1790945816495,
+      "updatedAt": 1790945816495,
+      "content": {
+        "type": "slide",
+        "canvas": {
+          "id": "canvas_s6_matrix",
+          "viewportSize": 1000,
+          "viewportRatio": 0.5625,
+          "theme": {
+            "backgroundColor": "#ffffff",
+            "themeColors": [
+              "#5b9bd5",
+              "#ed7d31",
+              "#a5a5a5",
+              "#ffc000",
+              "#4472c4"
+            ],
+            "fontColor": "#333333",
+            "fontName": "Microsoft YaHei",
+            "outline": {
+              "color": "#d14424",
+              "width": 2,
+              "style": "solid"
+            },
+            "shadow": {
+              "h": 0,
+              "v": 0,
+              "blur": 10,
+              "color": "#000000"
+            }
+          },
+          "elements": [
+            {
+              "id": "text_s6_title",
+              "type": "text",
+              "left": 60,
+              "top": 36,
+              "width": 880,
+              "height": 48,
+              "content": "<p style=\"font-size: 28px; line-height: 1.2;\"><strong>The CIA Elicitation Matrix: Active Elicitation Tactics</strong></p>",
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#1e293b",
+              "rotate": 0
+            },
+            {
+              "id": "text_s6_subtitle",
+              "type": "text",
+              "left": 60,
+              "top": 86,
+              "width": 880,
+              "height": 28,
+              "content": "<p style=\"font-size: 15px; color: #475569;\">Extracting protected intelligence through conversational reflex traps without direct questioning.</p>",
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#475569",
+              "rotate": 0
+            },
+            {
+              "id": "shape_s6_divider",
+              "type": "shape",
+              "left": 60,
+              "top": 118,
+              "width": 880,
+              "height": 2,
+              "path": "M 0 0 L 1 0 L 1 1 L 0 1 Z",
+              "viewBox": [
+                1,
+                1
+              ],
+              "fill": "#cbd5e1",
+              "fixedRatio": false,
+              "rotate": 0
+            },
+            {
+              "id": "shape_s6_card1",
+              "type": "shape",
+              "left": 60,
+              "top": 130,
+              "width": 276,
+              "height": 272,
+              "path": "M 0 0 L 1 0 L 1 1 L 0 1 Z",
+              "viewBox": [
+                1,
+                1
+              ],
+              "fill": "#f8fafc",
+              "outline": {
+                "color": "#cbd5e1",
+                "width": 1,
+                "style": "solid"
+              },
+              "fixedRatio": false,
+              "rotate": 0
+            },
+            {
+              "id": "text_s6_c1_title",
+              "type": "text",
+              "left": 75,
+              "top": 142,
+              "width": 246,
+              "height": 44,
+              "content": "<p style=\"font-size: 17px; color: #0f172a;\"><strong>1. Provocation & Ego</strong></p>",
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#0f172a",
+              "rotate": 0
+            },
+            {
+              "id": "text_s6_c1_body",
+              "type": "text",
+              "left": 75,
+              "top": 188,
+              "width": 246,
+              "height": 204,
+              "content": "<p style=\"font-size: 13px; line-height: 1.45; color: #334155;\"><strong>Tactic:</strong> Questioning expertise or feigning disbelief.<br/><br/><strong>Psychological Lever:</strong> Human ego compulsively defends professional competence. Targets volunteer sensitive technical nuances simply to prove mastery.</p>",
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#334155",
+              "rotate": 0
+            },
+            {
+              "id": "shape_s6_card2",
+              "type": "shape",
+              "left": 362,
+              "top": 130,
+              "width": 276,
+              "height": 272,
+              "path": "M 0 0 L 1 0 L 1 1 L 0 1 Z",
+              "viewBox": [
+                1,
+                1
+              ],
+              "fill": "#f8fafc",
+              "outline": {
+                "color": "#cbd5e1",
+                "width": 1,
+                "style": "solid"
+              },
+              "fixedRatio": false,
+              "rotate": 0
+            },
+            {
+              "id": "text_s6_c2_title",
+              "type": "text",
+              "left": 377,
+              "top": 142,
+              "width": 246,
+              "height": 44,
+              "content": "<p style=\"font-size: 17px; color: #0f172a;\"><strong>2. Misestimation</strong></p>",
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#0f172a",
+              "rotate": 0
+            },
+            {
+              "id": "text_s6_c2_body",
+              "type": "text",
+              "left": 377,
+              "top": 188,
+              "width": 246,
+              "height": 204,
+              "content": "<p style=\"font-size: 13px; line-height: 1.45; color: #334155;\"><strong>Tactic:</strong> Stating incorrect statistics or erroneous facts.<br/><br/><strong>Psychological Lever:</strong> The reflex to correct misinformation is near-irresistible: <em>\"No, we don't run 40 nodes, we deployed 128 clusters last Tuesday.\"</em></p>",
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#334155",
+              "rotate": 0
+            },
+            {
+              "id": "shape_s6_card3",
+              "type": "shape",
+              "left": 664,
+              "top": 130,
+              "width": 276,
+              "height": 272,
+              "path": "M 0 0 L 1 0 L 1 1 L 0 1 Z",
+              "viewBox": [
+                1,
+                1
+              ],
+              "fill": "#f8fafc",
+              "outline": {
+                "color": "#cbd5e1",
+                "width": 1,
+                "style": "solid"
+              },
+              "fixedRatio": false,
+              "rotate": 0
+            },
+            {
+              "id": "text_s6_c3_title",
+              "type": "text",
+              "left": 679,
+              "top": 142,
+              "width": 246,
+              "height": 44,
+              "content": "<p style=\"font-size: 17px; color: #0f172a;\"><strong>3. Feigned Ignorance</strong></p>",
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#0f172a",
+              "rotate": 0
+            },
+            {
+              "id": "text_s6_c3_body",
+              "type": "text",
+              "left": 679,
+              "top": 188,
+              "width": 246,
+              "height": 204,
+              "content": "<p style=\"font-size: 13px; line-height: 1.45; color: #334155;\"><strong>Tactic:</strong> Portraying oneself as an earnest novice seeking mentorship.<br/><br/><strong>Psychological Lever:</strong> Defuses operational vigilance. The target adopts a pedagogical posture, generously unpacking proprietary architectures.</p>",
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#334155",
+              "rotate": 0
+            },
+            {
+              "id": "shape_s6_footer",
+              "type": "shape",
+              "left": 60,
+              "top": 414,
+              "width": 880,
+              "height": 116,
+              "path": "M 0 0 L 1 0 L 1 1 L 0 1 Z",
+              "viewBox": [
+                1,
+                1
+              ],
+              "fill": "#eff6ff",
+              "outline": {
+                "color": "#93c5fd",
+                "width": 1,
+                "style": "solid"
+              },
+              "fixedRatio": false,
+              "rotate": 0
+            },
+            {
+              "id": "text_s6_takeaway",
+              "type": "text",
+              "left": 80,
+              "top": 424,
+              "width": 840,
+              "height": 96,
+              "content": "<p style=\"font-size: 15px; color: #1e3a8a;\"><strong>The Golden Rule of Elicitation:</strong> <em>People naturally rush to fill an emotional vacuum, correct errors, and assert authority.</em></p><p style=\"font-size: 13px; color: #1e40af; margin-top: 4px;\">A disciplined intelligence collector never asks for classified data outright; they construct conversational triggers where the target voluntarily surrenders the critical link.</p>",
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#1e3a8a",
+              "rotate": 0
+            }
+          ],
+          "background": {
+            "type": "solid",
+            "color": "#ffffff"
+          }
+        }
+      },
+      "actions": [
+        {
+          "id": "action_s6_spk1",
+          "type": "speech",
+          "text": "Welcome to our deep dive into the CIA Elicitation Matrix. In field operations, intelligence collectors rarely interrogate subjects directly. Instead, they exploit conversational reflexes that cause targets to divulge protected data voluntarily.",
+          "audioId": "tts_s6_action_s6_spk1",
+          "audioUrl": "/api/classroom-media/TJ0q3IsuaR/audio/tts_s6_action_s6_spk1.mp3"
+        },
+        {
+          "id": "action_s6_spot1",
+          "type": "spotlight",
+          "elementId": "text_s6_title"
+        },
+        {
+          "id": "action_s6_spk2",
+          "type": "speech",
+          "text": "The matrix focuses on active elicitation tactics designed to bypass security consciousness. Let us examine the three most devastating vectors: Provocation, Deliberate Misestimation, and Feigned Ignorance.",
+          "audioId": "tts_s6_action_s6_spk2",
+          "audioUrl": "/api/classroom-media/TJ0q3IsuaR/audio/tts_s6_action_s6_spk2.mp3"
+        },
+        {
+          "id": "action_s6_spot2",
+          "type": "spotlight",
+          "elementId": "text_s6_c1_title"
+        },
+        {
+          "id": "action_s6_spk3",
+          "type": "speech",
+          "text": "First is Provocation and Ego Exploitation. When an operative challenges your competence or implies your system is outdated, human pride reflexively urges you to defend yourself. An engineer who would never leak a spec sheet might gladly reveal proprietary clock speeds just to prove their technical prowess.",
+          "audioId": "tts_s6_action_s6_spk3",
+          "audioUrl": "/api/classroom-media/TJ0q3IsuaR/audio/tts_s6_action_s6_spk3.mp3"
+        },
+        {
+          "id": "action_s6_spot3",
+          "type": "spotlight",
+          "elementId": "text_s6_c2_title"
+        },
+        {
+          "id": "action_s6_spk4",
+          "type": "speech",
+          "text": "Second is the False Statement and Deliberate Misestimation trap. A collector will deliberately lowball or misstate a metric, saying I heard your satellite downlink barely handles twenty gigabits. The natural instinct to correct inaccurate information triggers an immediate correction: Actually, we benchmarked at over one hundred gigabits last month.",
+          "audioId": "tts_s6_action_s6_spk4",
+          "audioUrl": "/api/classroom-media/TJ0q3IsuaR/audio/tts_s6_action_s6_spk4.mp3"
+        },
+        {
+          "id": "action_s6_spot4",
+          "type": "spotlight",
+          "elementId": "text_s6_c3_title"
+        },
+        {
+          "id": "action_s6_spk5",
+          "type": "speech",
+          "text": "Third is Feigned Ignorance paired with Flattery. By playing the naive student eager to learn from a master, the collector completely disarms your operational threat radar. When you step into the role of teacher, your security barriers collapse.",
+          "audioId": "tts_s6_action_s6_spk5",
+          "audioUrl": "/api/classroom-media/TJ0q3IsuaR/audio/tts_s6_action_s6_spk5.mp3"
+        },
+        {
+          "id": "action_s6_spot5",
+          "type": "spotlight",
+          "elementId": "shape_s6_footer"
+        },
+        {
+          "id": "action_s6_spk6",
+          "type": "speech",
+          "text": "Notice our operational rule at the bottom: People desperately want to correct errors and be recognized as authorities. That psychological reflex is the foundation of covert conversational collection.",
+          "audioId": "tts_s6_action_s6_spk6",
+          "audioUrl": "/api/classroom-media/TJ0q3IsuaR/audio/tts_s6_action_s6_spk6.mp3"
+        },
+        {
+          "id": "action_s6_disc1",
+          "type": "discussion",
+          "topic": "How do we identify deliberate misestimation in live conversation?",
+          "prompt": "Curious Mind asks: How can an operative differentiate between an innocent misunderstanding and a deliberate misestimation designed to elicit classified numbers?",
+          "agentId": "default-4"
+        },
+        {
+          "id": "action_s6_spk7",
+          "type": "speech",
+          "text": "As Curious Mind highlights, whenever someone states a specific, provocative factual error regarding your sensitive project, immediately treat it as an active elicitation probe. Do not correct the number; respond with generalities or mirror the inquiry back.",
+          "audioId": "tts_s6_action_s6_spk7",
+          "audioUrl": "/api/classroom-media/TJ0q3IsuaR/audio/tts_s6_action_s6_spk7.mp3"
+        }
+      ]
+    },
+    {
+      "id": "scene_ericksonian_07",
+      "stageId": "TJ0q3IsuaR",
+      "title": "Ericksonian Conversational Trance & Embedded Commands",
+      "order": 7,
+      "outlineId": "scene_7",
+      "type": "slide",
+      "createdAt": 1790945816496,
+      "updatedAt": 1790945816496,
+      "content": {
+        "type": "slide",
+        "canvas": {
+          "id": "canvas_s7_trance",
+          "viewportSize": 1000,
+          "viewportRatio": 0.5625,
+          "theme": {
+            "backgroundColor": "#ffffff",
+            "themeColors": [
+              "#5b9bd5",
+              "#ed7d31",
+              "#a5a5a5",
+              "#ffc000",
+              "#4472c4"
+            ],
+            "fontColor": "#333333",
+            "fontName": "Microsoft YaHei",
+            "outline": {
+              "color": "#d14424",
+              "width": 2,
+              "style": "solid"
+            },
+            "shadow": {
+              "h": 0,
+              "v": 0,
+              "blur": 10,
+              "color": "#000000"
+            }
+          },
+          "elements": [
+            {
+              "id": "text_s7_title",
+              "type": "text",
+              "left": 60,
+              "top": 36,
+              "width": 880,
+              "height": 48,
+              "content": "<p style=\"font-size: 28px; line-height: 1.2;\"><strong>Ericksonian Conversational Trance & Embedded Commands</strong></p>",
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#1e293b",
+              "rotate": 0
+            },
+            {
+              "id": "text_s7_subtitle",
+              "type": "text",
+              "left": 60,
+              "top": 86,
+              "width": 880,
+              "height": 28,
+              "content": "<p style=\"font-size: 15px; color: #475569;\">Sub-perceptual pacing, analog marking, and indirect hypnotic inductions in operational dialogue.</p>",
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#475569",
+              "rotate": 0
+            },
+            {
+              "id": "shape_s7_divider",
+              "type": "shape",
+              "left": 60,
+              "top": 118,
+              "width": 880,
+              "height": 2,
+              "path": "M 0 0 L 1 0 L 1 1 L 0 1 Z",
+              "viewBox": [
+                1,
+                1
+              ],
+              "fill": "#cbd5e1",
+              "fixedRatio": false,
+              "rotate": 0
+            },
+            {
+              "id": "shape_s7_card1",
+              "type": "shape",
+              "left": 60,
+              "top": 130,
+              "width": 276,
+              "height": 272,
+              "path": "M 0 0 L 1 0 L 1 1 L 0 1 Z",
+              "viewBox": [
+                1,
+                1
+              ],
+              "fill": "#f8fafc",
+              "outline": {
+                "color": "#cbd5e1",
+                "width": 1,
+                "style": "solid"
+              },
+              "fixedRatio": false,
+              "rotate": 0
+            },
+            {
+              "id": "text_s7_c1_title",
+              "type": "text",
+              "left": 75,
+              "top": 142,
+              "width": 246,
+              "height": 44,
+              "content": "<p style=\"font-size: 17px; color: #0f172a;\"><strong>1. Pacing & Leading</strong></p>",
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#0f172a",
+              "rotate": 0
+            },
+            {
+              "id": "text_s7_c1_body",
+              "type": "text",
+              "left": 75,
+              "top": 188,
+              "width": 246,
+              "height": 204,
+              "content": "<p style=\"font-size: 13px; line-height: 1.45; color: #334155;\"><strong>Technique:</strong> Synchronizing speech cadence, vocal timber, and sensory truisms.<br/><br/><strong>Hypnotic Principle:</strong> Once three consecutive verifiable statements are validated by the target's cognitive filter, the fourth statement—a behavioral lead—is adopted uncritically.</p>",
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#334155",
+              "rotate": 0
+            },
+            {
+              "id": "shape_s7_card2",
+              "type": "shape",
+              "left": 362,
+              "top": 130,
+              "width": 276,
+              "height": 272,
+              "path": "M 0 0 L 1 0 L 1 1 L 0 1 Z",
+              "viewBox": [
+                1,
+                1
+              ],
+              "fill": "#f8fafc",
+              "outline": {
+                "color": "#cbd5e1",
+                "width": 1,
+                "style": "solid"
+              },
+              "fixedRatio": false,
+              "rotate": 0
+            },
+            {
+              "id": "text_s7_c2_title",
+              "type": "text",
+              "left": 377,
+              "top": 142,
+              "width": 246,
+              "height": 44,
+              "content": "<p style=\"font-size: 17px; color: #0f172a;\"><strong>2. Analog Marking</strong></p>",
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#0f172a",
+              "rotate": 0
+            },
+            {
+              "id": "text_s7_c2_body",
+              "type": "text",
+              "left": 377,
+              "top": 188,
+              "width": 246,
+              "height": 204,
+              "content": "<p style=\"font-size: 13px; line-height: 1.45; color: #334155;\"><strong>Technique:</strong> Tonal pitch inflection, micro-pauses, or subtle gestures on specific keywords.<br/><br/><strong>Hypnotic Principle:</strong> The conscious mind hears a polite story, while the subconscious processes the marked syllables as an isolated imperative command.</p>",
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#334155",
+              "rotate": 0
+            },
+            {
+              "id": "shape_s7_card3",
+              "type": "shape",
+              "left": 664,
+              "top": 130,
+              "width": 276,
+              "height": 272,
+              "path": "M 0 0 L 1 0 L 1 1 L 0 1 Z",
+              "viewBox": [
+                1,
+                1
+              ],
+              "fill": "#f8fafc",
+              "outline": {
+                "color": "#cbd5e1",
+                "width": 1,
+                "style": "solid"
+              },
+              "fixedRatio": false,
+              "rotate": 0
+            },
+            {
+              "id": "text_s7_c3_title",
+              "type": "text",
+              "left": 679,
+              "top": 142,
+              "width": 246,
+              "height": 44,
+              "content": "<p style=\"font-size: 17px; color: #0f172a;\"><strong>3. Double Binds</strong></p>",
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#0f172a",
+              "rotate": 0
+            },
+            {
+              "id": "text_s7_c3_body",
+              "type": "text",
+              "left": 679,
+              "top": 188,
+              "width": 246,
+              "height": 204,
+              "content": "<p style=\"font-size: 13px; line-height: 1.45; color: #334155;\"><strong>Technique:</strong> Constructing choices where every alternative presupposes compliance.<br/><br/><strong>Hypnotic Principle:</strong> <em>\"Would you prefer to debrief now or in twenty minutes?\"</em> The subject expends cognitive effort choosing timing, unconsciously conceding the debrief itself.</p>",
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#334155",
+              "rotate": 0
+            },
+            {
+              "id": "shape_s7_footer",
+              "type": "shape",
+              "left": 60,
+              "top": 414,
+              "width": 880,
+              "height": 116,
+              "path": "M 0 0 L 1 0 L 1 1 L 0 1 Z",
+              "viewBox": [
+                1,
+                1
+              ],
+              "fill": "#faf5ff",
+              "outline": {
+                "color": "#d8b4fe",
+                "width": 1,
+                "style": "solid"
+              },
+              "fixedRatio": false,
+              "rotate": 0
+            },
+            {
+              "id": "text_s7_takeaway",
+              "type": "text",
+              "left": 80,
+              "top": 424,
+              "width": 840,
+              "height": 96,
+              "content": "<p style=\"font-size: 15px; color: #581c87;\"><strong>Bypassing the Critical Factor:</strong> <em>Conversational trance is not somnambulism; it is focused internal absorption where peripheral scrutiny collapses.</em></p><p style=\"font-size: 13px; color: #6b21a8; margin-top: 4px;\">Milton Erickson pioneered how ordinary conversations can weave suggestions into the mind so seamlessly that the subject firmly believes the decision was entirely their own.</p>",
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#581c87",
+              "rotate": 0
+            }
+          ],
+          "background": {
+            "type": "solid",
+            "color": "#ffffff"
+          }
+        }
+      },
+      "actions": [
+        {
+          "id": "action_s7_spk1",
+          "type": "speech",
+          "text": "Next, we explore Ericksonian Conversational Trance and Embedded Commands. Unlike theatrical hypnosis, operational trance occurs in ordinary, awake conversations without swinging pocket watches or deep sleep commands.",
+          "audioId": "tts_s7_action_s7_spk1",
+          "audioUrl": "/api/classroom-media/TJ0q3IsuaR/audio/tts_s7_action_s7_spk1.mp3"
+        },
+        {
+          "id": "action_s7_spot1",
+          "type": "spotlight",
+          "elementId": "text_s7_title"
+        },
+        {
+          "id": "action_s7_spk2",
+          "type": "speech",
+          "text": "Doctor Milton Erickson demonstrated that the critical barrier of the conscious mind can be bypassed by using indirect language, subtle vocal marking, and structured presuppositions.",
+          "audioId": "tts_s7_action_s7_spk2",
+          "audioUrl": "/api/classroom-media/TJ0q3IsuaR/audio/tts_s7_action_s7_spk2.mp3"
+        },
+        {
+          "id": "action_s7_spot2",
+          "type": "spotlight",
+          "elementId": "text_s7_c1_title"
+        },
+        {
+          "id": "action_s7_spk3",
+          "type": "speech",
+          "text": "Sub-perceptual Pacing and Leading begins by mirroring the target posture, breathing rate, and linguistic habits while stating undeniable facts. When an operative states three things you know to be true, your mind relaxes its defensive guards, allowing the fourth statement to lead your subsequent thoughts.",
+          "audioId": "tts_s7_action_s7_spk3",
+          "audioUrl": "/api/classroom-media/TJ0q3IsuaR/audio/tts_s7_action_s7_spk3.mp3"
+        },
+        {
+          "id": "action_s7_spot3",
+          "type": "spotlight",
+          "elementId": "text_s7_c2_title"
+        },
+        {
+          "id": "action_s7_spk4",
+          "type": "speech",
+          "text": "Analog Marking uses micro-tonal shifts or brief pauses to highlight embedded imperatives inside innocent sentences. For instance: As we consider this project, you may decide to share the encrypted logs freely, whenever you feel confident. The marked words form a direct command received beneath conscious processing.",
+          "audioId": "tts_s7_action_s7_spk4",
+          "audioUrl": "/api/classroom-media/TJ0q3IsuaR/audio/tts_s7_action_s7_spk4.mp3"
+        },
+        {
+          "id": "action_s7_spot4",
+          "type": "spotlight",
+          "elementId": "text_s7_c3_title"
+        },
+        {
+          "id": "action_s7_spk5",
+          "type": "speech",
+          "text": "Double Binds trap the target within an illusion of agency. When asked: Would you rather sign the disclosure agreement before lunch, or review it over dessert?, both choices accept the premise that you will sign. Your conscious mind debates timing while your defense against signing is disarmed.",
+          "audioId": "tts_s7_action_s7_spk5",
+          "audioUrl": "/api/classroom-media/TJ0q3IsuaR/audio/tts_s7_action_s7_spk5.mp3"
+        },
+        {
+          "id": "action_s7_spot5",
+          "type": "spotlight",
+          "elementId": "shape_s7_footer"
+        },
+        {
+          "id": "action_s7_spk6",
+          "type": "speech",
+          "text": "As summarized below, trance is heightened internal absorption. When you are absorbed in thinking about an interesting riddle or analogy, your peripheral operational alertness drops to near zero.",
+          "audioId": "tts_s7_action_s7_spk6",
+          "audioUrl": "/api/classroom-media/TJ0q3IsuaR/audio/tts_s7_action_s7_spk6.mp3"
+        },
+        {
+          "id": "action_s7_disc1",
+          "type": "discussion",
+          "topic": "Can grounding interrupts break conversational trance?",
+          "prompt": "Deep Thinker asks: If conversational trance depends on internal absorption and cadence matching, does deliberately introducing an unexpected physical motion or non-sequitur instantly break the spell?",
+          "agentId": "default-6"
+        },
+        {
+          "id": "action_s7_spk7",
+          "type": "speech",
+          "text": "Deep Thinker is spot on. Any sudden kinetic break, shifting your physical posture, or asking an unexpected question disrupts the influencer pacing cycle and snaps your cognitive filter right back online.",
+          "audioId": "tts_s7_action_s7_spk7",
+          "audioUrl": "/api/classroom-media/TJ0q3IsuaR/audio/tts_s7_action_s7_spk7.mp3"
+        }
+      ]
+    },
+    {
+      "id": "scene_sanitization_08",
+      "stageId": "TJ0q3IsuaR",
+      "title": "Cognitive Sanitization, Canary Traps & Operational Compartmentalization",
+      "order": 8,
+      "outlineId": "scene_8",
+      "type": "slide",
+      "createdAt": 1790945816496,
+      "updatedAt": 1790945816496,
+      "content": {
+        "type": "slide",
+        "canvas": {
+          "id": "canvas_s8_defense",
+          "viewportSize": 1000,
+          "viewportRatio": 0.5625,
+          "theme": {
+            "backgroundColor": "#ffffff",
+            "themeColors": [
+              "#5b9bd5",
+              "#ed7d31",
+              "#a5a5a5",
+              "#ffc000",
+              "#4472c4"
+            ],
+            "fontColor": "#333333",
+            "fontName": "Microsoft YaHei",
+            "outline": {
+              "color": "#d14424",
+              "width": 2,
+              "style": "solid"
+            },
+            "shadow": {
+              "h": 0,
+              "v": 0,
+              "blur": 10,
+              "color": "#000000"
+            }
+          },
+          "elements": [
+            {
+              "id": "text_s8_title",
+              "type": "text",
+              "left": 60,
+              "top": 36,
+              "width": 880,
+              "height": 48,
+              "content": "<p style=\"font-size: 28px; line-height: 1.2;\"><strong>Cognitive Sanitization & Canary Traps</strong></p>",
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#1e293b",
+              "rotate": 0
+            },
+            {
+              "id": "text_s8_subtitle",
+              "type": "text",
+              "left": 60,
+              "top": 86,
+              "width": 880,
+              "height": 28,
+              "content": "<p style=\"font-size: 15px; color: #475569;\">Counter-intelligence architectures, forensic information watermarking, and conversational judo.</p>",
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#475569",
+              "rotate": 0
+            },
+            {
+              "id": "shape_s8_divider",
+              "type": "shape",
+              "left": 60,
+              "top": 118,
+              "width": 880,
+              "height": 2,
+              "path": "M 0 0 L 1 0 L 1 1 L 0 1 Z",
+              "viewBox": [
+                1,
+                1
+              ],
+              "fill": "#cbd5e1",
+              "fixedRatio": false,
+              "rotate": 0
+            },
+            {
+              "id": "shape_s8_card1",
+              "type": "shape",
+              "left": 60,
+              "top": 130,
+              "width": 276,
+              "height": 272,
+              "path": "M 0 0 L 1 0 L 1 1 L 0 1 Z",
+              "viewBox": [
+                1,
+                1
+              ],
+              "fill": "#f8fafc",
+              "outline": {
+                "color": "#cbd5e1",
+                "width": 1,
+                "style": "solid"
+              },
+              "fixedRatio": false,
+              "rotate": 0
+            },
+            {
+              "id": "text_s8_c1_title",
+              "type": "text",
+              "left": 75,
+              "top": 142,
+              "width": 246,
+              "height": 44,
+              "content": "<p style=\"font-size: 17px; color: #0f172a;\"><strong>1. Compartmentalization</strong></p>",
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#0f172a",
+              "rotate": 0
+            },
+            {
+              "id": "text_s8_c1_body",
+              "type": "text",
+              "left": 75,
+              "top": 188,
+              "width": 246,
+              "height": 204,
+              "content": "<p style=\"font-size: 13px; line-height: 1.45; color: #334155;\"><strong>Doctrine:</strong> Zero-trust conversational hygiene. Strict compartmentalization of critical keys.<br/><br/><strong>Implementation:</strong> Sanitizing conversational surfaces so that even under compromised rapport, no individual operator possesses the cumulative puzzle pieces.</p>",
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#334155",
+              "rotate": 0
+            },
+            {
+              "id": "shape_s8_card2",
+              "type": "shape",
+              "left": 362,
+              "top": 130,
+              "width": 276,
+              "height": 272,
+              "path": "M 0 0 L 1 0 L 1 1 L 0 1 Z",
+              "viewBox": [
+                1,
+                1
+              ],
+              "fill": "#f8fafc",
+              "outline": {
+                "color": "#cbd5e1",
+                "width": 1,
+                "style": "solid"
+              },
+              "fixedRatio": false,
+              "rotate": 0
+            },
+            {
+              "id": "text_s8_c2_title",
+              "type": "text",
+              "left": 377,
+              "top": 142,
+              "width": 246,
+              "height": 44,
+              "content": "<p style=\"font-size: 17px; color: #0f172a;\"><strong>2. Canary Traps</strong></p>",
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#0f172a",
+              "rotate": 0
+            },
+            {
+              "id": "text_s8_c2_body",
+              "type": "text",
+              "left": 377,
+              "top": 188,
+              "width": 246,
+              "height": 204,
+              "content": "<p style=\"font-size: 13px; line-height: 1.45; color: #334155;\"><strong>Doctrine:</strong> Releasing controlled, subtly differing versions of sensitive briefings to distinct recipients.<br/><br/><strong>Implementation:</strong> When leaked intelligence emerges in adversary queries, the specific fingerprint isolates the leak point unequivocally.</p>",
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#334155",
+              "rotate": 0
+            },
+            {
+              "id": "shape_s8_card3",
+              "type": "shape",
+              "left": 664,
+              "top": 130,
+              "width": 276,
+              "height": 272,
+              "path": "M 0 0 L 1 0 L 1 1 L 0 1 Z",
+              "viewBox": [
+                1,
+                1
+              ],
+              "fill": "#f8fafc",
+              "outline": {
+                "color": "#cbd5e1",
+                "width": 1,
+                "style": "solid"
+              },
+              "fixedRatio": false,
+              "rotate": 0
+            },
+            {
+              "id": "text_s8_c3_title",
+              "type": "text",
+              "left": 679,
+              "top": 142,
+              "width": 246,
+              "height": 44,
+              "content": "<p style=\"font-size: 17px; color: #0f172a;\"><strong>3. Conversational Judo</strong></p>",
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#0f172a",
+              "rotate": 0
+            },
+            {
+              "id": "text_s8_c3_body",
+              "type": "text",
+              "left": 679,
+              "top": 188,
+              "width": 246,
+              "height": 204,
+              "content": "<p style=\"font-size: 13px; line-height: 1.45; color: #334155;\"><strong>Doctrine:</strong> Rather than stonewalling, redirect the collector's force into harmless public channels.<br/><br/><strong>Implementation:</strong> Provide copious unclassified context with enthusiasm while using polite counter-questions to map the adversary's intelligence requirements.</p>",
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#334155",
+              "rotate": 0
+            },
+            {
+              "id": "shape_s8_footer",
+              "type": "shape",
+              "left": 60,
+              "top": 414,
+              "width": 880,
+              "height": 116,
+              "path": "M 0 0 L 1 0 L 1 1 L 0 1 Z",
+              "viewBox": [
+                1,
+                1
+              ],
+              "fill": "#f0fdf4",
+              "outline": {
+                "color": "#86efac",
+                "width": 1,
+                "style": "solid"
+              },
+              "fixedRatio": false,
+              "rotate": 0
+            },
+            {
+              "id": "text_s8_takeaway",
+              "type": "text",
+              "left": 80,
+              "top": 424,
+              "width": 840,
+              "height": 96,
+              "content": "<p style=\"font-size: 15px; color: #14532d;\"><strong>The Counter-Intelligence Reversal:</strong> <em>Every elicitation attempt is a reconnaissance probe that leaks the adversary's targeting mandate.</em></p><p style=\"font-size: 13px; color: #166534; margin-top: 4px;\">When you detect elicitation, don't show hostility. Act interested, deploy an unclassified decoy, and record exactly what the collector was probing for.</p>",
+              "defaultFontName": "Microsoft YaHei",
+              "defaultColor": "#14532d",
+              "rotate": 0
+            }
+          ],
+          "background": {
+            "type": "solid",
+            "color": "#ffffff"
+          }
+        }
+      },
+      "actions": [
+        {
+          "id": "action_s8_spk1",
+          "type": "speech",
+          "text": "In our eighth scene, we transition from individual defense to systemic counter-intelligence architecture: Cognitive Sanitization, Canary Traps, and Conversational Judo.",
+          "audioId": "tts_s8_action_s8_spk1",
+          "audioUrl": "/api/classroom-media/TJ0q3IsuaR/audio/tts_s8_action_s8_spk1.mp3"
+        },
+        {
+          "id": "action_s8_spot1",
+          "type": "spotlight",
+          "elementId": "text_s8_title"
+        },
+        {
+          "id": "action_s8_spk2",
+          "type": "speech",
+          "text": "The best defense against psychological manipulation is structural. Even if an operative experiences cognitive fatigue, compartmentalized protocols ensure no single conversation can compromise core security.",
+          "audioId": "tts_s8_action_s8_spk2",
+          "audioUrl": "/api/classroom-media/TJ0q3IsuaR/audio/tts_s8_action_s8_spk2.mp3"
+        },
+        {
+          "id": "action_s8_spot2",
+          "type": "spotlight",
+          "elementId": "text_s8_c1_title"
+        },
+        {
+          "id": "action_s8_spk3",
+          "type": "speech",
+          "text": "Operational Compartmentalization and Cognitive Sanitization require strict boundaries. You must actively sanitize your spoken vocabulary, omitting internal project code names, server environments, or supplier relationships from all casual social interactions.",
+          "audioId": "tts_s8_action_s8_spk3",
+          "audioUrl": "/api/classroom-media/TJ0q3IsuaR/audio/tts_s8_action_s8_spk3.mp3"
+        },
+        {
+          "id": "action_s8_spot3",
+          "type": "spotlight",
+          "elementId": "text_s8_c2_title"
+        },
+        {
+          "id": "action_s8_spk4",
+          "type": "speech",
+          "text": "A Canary Trap is the gold standard for detecting information leaks. By providing slightly different versions of a memo or date to suspect individuals, any subsequent disclosure carries an indelible forensic watermark pointing directly to the source.",
+          "audioId": "tts_s8_action_s8_spk4",
+          "audioUrl": "/api/classroom-media/TJ0q3IsuaR/audio/tts_s8_action_s8_spk4.mp3"
+        },
+        {
+          "id": "action_s8_spot4",
+          "type": "spotlight",
+          "elementId": "text_s8_c3_title"
+        },
+        {
+          "id": "action_s8_spk5",
+          "type": "speech",
+          "text": "Conversational Judo is the art of absorbing the collector probe and redirecting it harmlessly. Instead of clunky silence that signals you have a secret, share abundant, harmless public details enthusiastically, then pivot to question the origin of the inquiry.",
+          "audioId": "tts_s8_action_s8_spk5",
+          "audioUrl": "/api/classroom-media/TJ0q3IsuaR/audio/tts_s8_action_s8_spk5.mp3"
+        },
+        {
+          "id": "action_s8_spot5",
+          "type": "spotlight",
+          "elementId": "shape_s8_footer"
+        },
+        {
+          "id": "action_s8_spk6",
+          "type": "speech",
+          "text": "Remember the Counter-Intelligence Reversal: When an adversary probes you, they are giving away their collection priorities. Every question they ask reveals what their intelligence agency lacks.",
+          "audioId": "tts_s8_action_s8_spk6",
+          "audioUrl": "/api/classroom-media/TJ0q3IsuaR/audio/tts_s8_action_s8_spk6.mp3"
+        },
+        {
+          "id": "action_s8_disc1",
+          "type": "discussion",
+          "topic": "Executing conversational judo under pressure",
+          "prompt": "Note Taker asks: What is the cleanest practical phrase to redirect an aggressive inquiry without appearing uncooperative?",
+          "agentId": "default-5"
+        },
+        {
+          "id": "action_s8_spk7",
+          "type": "speech",
+          "text": "A masterclass phrase noted by Note Taker is: That is a compelling technical dilemma! We actually debated a similar public paper last quarter—what methodology does your team recommend for solving it? You validate their question, offer nothing sensitive, and turn the spotlight right back onto them.",
+          "audioId": "tts_s8_action_s8_spk7",
+          "audioUrl": "/api/classroom-media/TJ0q3IsuaR/audio/tts_s8_action_s8_spk7.mp3"
+        }
+      ]
+    },
+    {
+      "id": "scene_red_team_09",
+      "stageId": "TJ0q3IsuaR",
+      "title": "Red Team Tactical Simulation: Live Operational Scenario",
+      "order": 9,
+      "outlineId": "scene_9",
+      "type": "quiz",
+      "createdAt": 1790945816496,
+      "updatedAt": 1790945816496,
+      "content": {
+        "type": "quiz",
+        "questions": [
+          {
+            "id": "q_rt_1",
+            "type": "single",
+            "question": "Tactical Scenario 1: At an international technology conference, an unknown consultant casually strikes up a chat and says: \"Your firm's new quantum encryption co-processor is rumored to suffer from fatal thermal throttling above eighty degrees—honestly, everyone knows your architecture is falling behind.\" Which elicitation tactic is active, and what is your optimal operational counter-measure?",
+            "options": [
+              {
+                "value": "A",
+                "label": "Pattern Interrupt; abruptly change the topic to discuss the weather in Zurich."
+              },
+              {
+                "value": "B",
+                "label": "Provocation & Deliberate Misestimation; execute Conversational Judo by validating the difficulty of thermal dissipation generally, without confirming or denying your architecture, and counter-probe their benchmarks."
+              },
+              {
+                "value": "C",
+                "label": "Double Bind; quickly disclose your laboratory's verified heat test metrics to protect your team's reputation."
+              },
+              {
+                "value": "D",
+                "label": "Ericksonian Anchoring; immediately demand to see their conference security clearance badge."
+              }
+            ],
+            "answer": [
+              "B"
+            ],
+            "analysis": "The speaker uses Provocation and Deliberate Misestimation to trigger your ego into defending your engineering credentials. The correct response is Conversational Judo: deflect the provocation by discussing general industry thermal physics, never confirm internal metrics, and politely probe their perspective to understand who sent them.",
+            "points": 30,
+            "hasAnswer": true
+          },
+          {
+            "id": "q_rt_2",
+            "type": "multiple",
+            "question": "Tactical Scenario 2: During a cross-departmental strategy review, an external auditor sits beside you, matches your breathing cadence, softens their tone, and says: \"As we review these deployment schedules today, you can comfortably release the production credentials now, or would it be more convenient to send the authentication tokens after lunch?\" Select all psychological and hypnotic mechanisms active in this query:",
+            "options": [
+              {
+                "value": "A",
+                "label": "Sub-perceptual pacing (mirroring breathing rhythm, posture, and vocal tempo)."
+              },
+              {
+                "value": "B",
+                "label": "Double bind (offering a false choice between \"now\" and \"after lunch\", presupposing compliance in releasing credentials)."
+              },
+              {
+                "value": "C",
+                "label": "Analog marking / Embedded command (\"comfortably release the production credentials\")."
+              },
+              {
+                "value": "D",
+                "label": "Overt physical duress and hostile interrogation."
+              }
+            ],
+            "answer": [
+              "A",
+              "B",
+              "C"
+            ],
+            "analysis": "The auditor is employing Ericksonian pacing (matching breathing and vocal tone), an embedded command with analog vocal marking (\"comfortably release the production credentials\"), and a double bind (framing the choice purely around timing, which presupposes the unauthorized release of credentials). Option D is incorrect as this is entirely covert.",
+            "points": 35,
+            "hasAnswer": true
+          },
+          {
+            "id": "q_rt_3",
+            "type": "short_answer",
+            "question": "Tactical Scenario 3: Counter-Intelligence Execution. You suspect that confidential release dates from your internal executive council are being leaked to an external competitor. Describe how you would formulate and deploy a \"Canary Trap\" across the four council directors to forensically pinpoint the leak source without alerting the suspected mole.",
+            "commentPrompt": "Grading Rubric: (1) Formulation of subtle, plausible informational variances (watermarks) across documents - 40% (2) Strict isolated distribution to each director with zero cross-contamination - 40% (3) Covert monitoring and leak attribution protocol - 20%",
+            "analysis": "To execute the Canary Trap: 1. Generate four subtly differentiated copies of the release schedule, each with a unique, plausible variation (e.g., varying release dates by several days or using distinct project codenames like Apex, Titan, Zenith, and Vanguard). 2. Distribute one unique version exclusively to each director under isolated channels, ensuring document metadata and access logs are tightly secured. 3. Monitor external competitor communications or press leaks. When a specific date or codename surfaces, the unique watermark definitively identifies which director leaked the material without arousing premature suspicion.",
+            "points": 35,
+            "hasAnswer": false
+          }
+        ]
+      },
+      "actions": [
+        {
+          "id": "action_s9_spk1",
+          "type": "speech",
+          "text": "Welcome to the Red Team Tactical Simulation. You are now in an active operational environment facing live elicitation and covert influence vectors. Evaluate each operational scenario, identify the underlying manipulation technique, and execute the correct counter-measure. Proceed with precision.",
+          "audioId": "tts_s9_action_s9_spk1",
+          "audioUrl": "/api/classroom-media/TJ0q3IsuaR/audio/tts_s9_action_s9_spk1.mp3"
+        }
+      ]
+    },
+    {
+      "id": "scene_conversation_lab_10",
+      "stageId": "TJ0q3IsuaR",
+      "title": "The Conversation Lab: Live-Fire Elicitation Drill",
+      "order": 10,
+      "outlineId": "scene_10",
+      "type": "interactive",
+      "createdAt": 1791066194001,
+      "updatedAt": 1791066784781,
+      "content": {
+        "type": "interactive",
+        "widgetType": "simulation",
+        "html": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"UTF-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>The Conversation Lab — Live-Fire Elicitation Drill</title>\n<style>\n  :root{\n    --bg:#0b1220; --panel:#101a30; --panel2:#0e1628; --line:#22304d;\n    --ink:#e8eefb; --dim:#93a1bd; --faint:#5b6b8c;\n    --red:#d14424; --red-dim:rgba(209,68,36,.14);\n    --amber:#f5a623; --green:#2fbf71; --mono:ui-monospace,'SF Mono',Menlo,Consolas,monospace;\n  }\n  *{box-sizing:border-box;margin:0;padding:0}\n  html,body{height:100%}\n  body{\n    background:radial-gradient(1200px 700px at 50% -10%, #14213d 0%, var(--bg) 60%) fixed;\n    color:var(--ink); font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;\n    display:flex; align-items:center; justify-content:center; padding:20px; min-height:100vh;\n  }\n  #app{width:100%; max-width:720px;}\n  .card{background:linear-gradient(180deg,var(--panel),var(--panel2)); border:1px solid var(--line);\n    border-radius:14px; padding:28px; box-shadow:0 24px 60px rgba(0,0,0,.5);}\n  .kicker{font-family:var(--mono); font-size:11px; letter-spacing:.22em; color:var(--red); margin-bottom:10px;}\n  h1{font-size:30px; letter-spacing:-.01em; margin-bottom:8px;}\n  h1 .accent{color:var(--red)}\n  .sub{color:var(--dim); font-size:15px; line-height:1.6;}\n  .rule{height:1px; background:var(--line); margin:20px 0;}\n  .brief-grid{display:grid; grid-template-columns:1fr 1fr; gap:12px; margin:18px 0;}\n  .brief-cell{border:1px solid var(--line); border-radius:10px; padding:14px; background:rgba(255,255,255,.015);}\n  .brief-cell b{display:block; font-family:var(--mono); font-size:11px; letter-spacing:.14em; color:var(--dim); margin-bottom:6px;}\n  .brief-cell span{font-size:14px; line-height:1.5;}\n  .btn{display:inline-block; border:0; cursor:pointer; font-weight:700; font-size:15px; letter-spacing:.04em;\n    color:#fff; background:linear-gradient(180deg,#e0522f,var(--red)); padding:14px 28px; border-radius:10px;\n    box-shadow:0 8px 24px rgba(209,68,36,.35); transition:transform .12s ease, box-shadow .12s ease; text-align:center;}\n  .btn:hover{transform:translateY(-1px); box-shadow:0 12px 28px rgba(209,68,36,.45);}\n  .btn:active{transform:translateY(0);}\n  .btn.ghost{background:transparent; border:1px solid var(--line); box-shadow:none; color:var(--ink);}\n  .hud{display:flex; justify-content:space-between; align-items:center; margin-bottom:16px;\n    font-family:var(--mono); font-size:11px; letter-spacing:.18em; color:var(--faint);}\n  .hud .score{color:var(--ink); font-size:13px;}\n  .hud .score b{color:var(--amber);}\n  .dots{display:flex; gap:6px;}\n  .dot{width:8px; height:8px; border-radius:50%; background:var(--line);}\n  .dot.done{background:var(--green);} .dot.now{background:var(--red); box-shadow:0 0 8px var(--red);}\n  .collector{border:1px solid var(--line); border-left:3px solid var(--red); border-radius:10px;\n    padding:14px 16px; background:rgba(209,68,36,.05); margin-bottom:14px;}\n  .collector .who{display:flex; justify-content:space-between; align-items:center; margin-bottom:8px;}\n  .collector .name{font-weight:700; font-size:15px;}\n  .collector .tag{font-family:var(--mono); font-size:10px; letter-spacing:.16em; color:var(--red);\n    border:1px solid var(--red); border-radius:4px; padding:3px 8px;}\n  .collector .ctx{font-family:var(--mono); font-size:11px; color:var(--faint); letter-spacing:.06em; margin-bottom:8px;}\n  .collector .msg{font-size:16px; line-height:1.65; font-style:italic; color:var(--ink);}\n  .prompt{font-family:var(--mono); font-size:11px; letter-spacing:.22em; color:var(--dim); margin:18px 0 10px;}\n  .opt{display:block; width:100%; text-align:left; cursor:pointer; margin-bottom:10px;\n    background:rgba(255,255,255,.02); border:1px solid var(--line); color:var(--ink);\n    border-radius:10px; padding:14px 16px; font-size:14.5px; line-height:1.55; transition:border-color .12s, background .12s;}\n  .opt:hover{border-color:var(--red); background:rgba(209,68,36,.07);}\n  .opt .k{font-family:var(--mono); color:var(--faint); margin-right:10px; font-size:12px;}\n  .verdict{border-radius:10px; padding:16px; margin:6px 0 14px; border:1px solid;}\n  .verdict.optimal{border-color:var(--green); background:rgba(47,191,113,.08);}\n  .verdict.acceptable{border-color:var(--amber); background:rgba(245,166,35,.08);}\n  .verdict.compromised{border-color:var(--red); background:rgba(209,68,36,.1);}\n  .verdict .vlabel{font-family:var(--mono); font-size:12px; letter-spacing:.2em; margin-bottom:8px;}\n  .verdict.optimal .vlabel{color:var(--green);} .verdict.acceptable .vlabel{color:var(--amber);} .verdict.compromised .vlabel{color:var(--red);}\n  .verdict .vpts{float:right;}\n  .tactic{border:1px dashed var(--line); border-radius:10px; padding:14px 16px; margin-bottom:14px; background:rgba(255,255,255,.015);}\n  .tactic b{font-family:var(--mono); font-size:11px; letter-spacing:.18em; color:var(--red); display:block; margin-bottom:6px;}\n  .tactic .d{font-size:14px; line-height:1.65; color:var(--dim);}\n  .tactic .d strong{color:var(--ink);}\n  .profile-row{display:flex; justify-content:space-between; align-items:center; gap:12px;\n    border:1px solid var(--line); border-radius:10px; padding:12px 14px; margin-bottom:10px; font-size:13.5px;}\n  .profile-row .t{color:var(--dim);} .profile-row .t b{color:var(--ink); display:block; font-size:14px;}\n  .pill{font-family:var(--mono); font-size:11px; letter-spacing:.1em; padding:5px 10px; border-radius:20px; white-space:nowrap;}\n  .pill.optimal{background:rgba(47,191,113,.15); color:var(--green); border:1px solid var(--green);}\n  .pill.acceptable{background:rgba(245,166,35,.15); color:var(--amber); border:1px solid var(--amber);}\n  .pill.compromised{background:rgba(209,68,36,.15); color:var(--red); border:1px solid var(--red);}\n  .bigscore{text-align:center; margin:10px 0 18px;}\n  .bigscore .n{font-size:56px; font-weight:800; letter-spacing:-.02em;}\n  .bigscore .n small{font-size:20px; color:var(--faint); font-weight:400;}\n  .bigscore .r{font-family:var(--mono); font-size:12px; letter-spacing:.24em; margin-top:6px;}\n  .stamp{font-family:var(--mono); font-size:10px; letter-spacing:.2em; color:var(--faint); text-align:center; margin-top:18px;}\n  .fade{animation:fade .35s ease;}\n  @keyframes fade{from{opacity:0; transform:translateY(8px);} to{opacity:1; transform:none;}}\n  @media(max-width:560px){ .brief-grid{grid-template-columns:1fr;} h1{font-size:24px;} .card{padding:20px;} }\n</style>\n</head>\n<body>\n<div id=\"app\"></div>\n<script>\nconst ENCOUNTERS = [\n  {\n    id:'conference', tactic:'Provocation & Ego \\u2014 Deliberate Misestimation',\n    courseRef:'Course Scene 6 \\u2014 The CIA Elicitation Matrix',\n    context:'ENCOUNTER 1 / 3 \\u00b7 MERIDIAN TECH SUMMIT \\u00b7 COFFEE BREAK',\n    name:'Marcus Vale', role:'Visiting consultant \\u00b7 unverified',\n    message:'\\u201cYour firm\\u2019s new quantum encryption co-processor is rumored to suffer fatal thermal throttling above eighty degrees. Honestly, everyone knows your architecture is falling behind.\\u201d',\n    options:[\n      { k:'A', verdict:'compromised', points:0,\n        label:'Correct him on the record: \\u201cThat\\u2019s completely wrong \\u2014 our co-processor sustains full throughput at 95\\u00b0, validated across 128 test clusters last quarter.\\u201d',\n        debrief:'<strong>Ego trap \\u2014 sprung.</strong> He questioned your competence and you paid for the privilege with real architecture details: operating temperatures, validation scale, cluster counts. The provocation was never about the hardware. It was about making you <em>need</em> to be right.' },\n      { k:'B', verdict:'optimal', points:100,\n        label:'\\u201cThermal dissipation is a hard problem across the industry right now. What benchmarks are you seeing on your side?\\u201d',\n        debrief:'<strong>Textbook conversational judo.</strong> You validated the general difficulty (true, useless), confirmed nothing about your hardware, and counter-probed \\u2014 now <em>he</em> is the one deciding what to reveal about who sent him.' },\n      { k:'C', verdict:'acceptable', points:30,\n        label:'\\u201cI\\u2019m not the right person to discuss our hardware roadmap.\\u201d Then change the subject.',\n        debrief:'<strong>Safe, but stiff.</strong> Nothing leaked \\u2014 but a flat stonewall tells a skilled collector exactly where the sensitive ground is, and he will simply try another vector on someone warmer. Deflection works; judo works better.' }\n    ]\n  },\n  {\n    id:'mentee', tactic:'Feigned Novice \\u2014 the Mentorship Trap',\n    courseRef:'Course Scene 6 \\u2014 The CIA Elicitation Matrix',\n    context:'ENCOUNTER 2 / 3 \\u00b7 INTERNAL SLACK \\u00b7 DIRECT MESSAGE',\n    name:'Priya Nair', role:'Junior analyst, joined 3 weeks ago \\u00b7 unverified',\n    message:'\\u201cI\\u2019m new to key management and honestly your team\\u2019s rotation discipline is legendary. Could you walk me through how you structure rotation windows? I\\u2019d love to learn from the best.\\u201d',\n    options:[\n      { k:'A', verdict:'compromised', points:0,\n        label:'Take her under your wing \\u2014 write up how your team structures rotation windows, escalation paths, and the tooling you use.',\n        debrief:'<strong>The pedagogical posture, exploited.</strong> Flattery defused your vigilance and you adopted the teacher role \\u2014 generously unpacking proprietary architecture for a stranger whose identity you never verified. Mentorship is admirable. Unverified mentorship is a leak.' },\n      { k:'B', verdict:'optimal', points:100,\n        label:'\\u201cHappy to help \\u2014 here are the public NIST guidelines we build on. For anything internal, let\\u2019s loop in your manager and our security team so you get the full picture.\\u201d',\n        debrief:'<strong>Clean handling.</strong> Generous with public material, gated on internal material, and you routed her into a legitimate channel. If she is genuine, she gets trained properly. If she is not, she just hit a wall wrapped in a smile.' },\n      { k:'C', verdict:'acceptable', points:30,\n        label:'\\u201cSorry, can\\u2019t help with that.\\u201d Close the thread.',\n        debrief:'<strong>Safe but costly.</strong> Nothing leaked, but an abrupt refusal to a possibly-genuine junior burns goodwill \\u2014 and a flat \\u201cno\\u201d on one specific topic can itself signal where the sensitive ground lies.' }\n    ]\n  },\n  {\n    id:'numbers', tactic:'False Statistics \\u2014 the Correction Reflex',\n    courseRef:'Course Scene 6 \\u2014 The CIA Elicitation Matrix',\n    context:'ENCOUNTER 3 / 3 \\u00b7 INDUSTRY ROUNDTABLE \\u00b7 OFF-MIC CHAT',\n    name:'David Okafor', role:'Industry peer \\u00b7 unverified',\n    message:'\\u201cI heard you guys only run about forty inference nodes in prod \\u2014 makes sense, keeps costs down, right?\\u201d',\n    options:[\n      { k:'A', verdict:'compromised', points:0,\n        label:'\\u201cForty? No \\u2014 we scaled to 128 clusters after the Tuesday push.\\u201d',\n        debrief:'<strong>The near-irresistible correction reflex.</strong> He stated a wrong number; your brain itched to fix it \\u2014 and you paid with exact infrastructure figures. The oldest elicitation trick in the book still works because being wrong <em>feels</em> like an emergency.' },\n      { k:'B', verdict:'optimal', points:100,\n        label:'\\u201cNode counts shift constantly with autoscaling. What are you running these days?\\u201d',\n        debrief:'<strong>True, useless, and reversed.</strong> \\u201cAutoscaling\\u201d is accurate and reveals nothing. The counter-question puts the conversational burden back on him \\u2014 every elicitation attempt is a reconnaissance probe that leaks the adversary\\u2019s targeting mandate.' },\n      { k:'C', verdict:'acceptable', points:30,\n        label:'Laugh it off: \\u201cHa \\u2014 I stopped counting a long time ago.\\u201d',\n        debrief:'<strong>A decent speed bump.</strong> Plausible, low-friction, nothing confirmed. But a persistent collector will circle back with a sharper number next time \\u2014 deflection delays, judo defeats.' }\n    ]\n  }\n];\n\nconst RATINGS = [\n  { min:270, label:'HARDENED OPERATOR', color:'var(--green)',\n    line:'Three for three. Your reflexes are trained \\u2014 you spot the lever, not just the line.' },\n  { min:120, label:'OPERATIONAL \\u2014 GAPS DETECTED', color:'var(--amber)',\n    line:'You survived, but at least one tactic got past you. Review the debriefs, then run it back.' },\n  { min:0, label:'COMPROMISED \\u2014 RETRAIN', color:'var(--red)',\n    line:'In a live environment, at least one of those answers would have cost real secrets. Replay the course scenes, then drill again.' }\n];\n\nconst app = document.getElementById('app');\nlet screen = 'briefing', encIdx = 0, score = 0, results = [], picked = -1;\n\nfunction hud(){\n  const dots = ENCOUNTERS.map((_,i)=>{\n    const cls = i < results.length ? 'done' : (i===encIdx && screen!=='briefing' && screen!=='profile' ? 'now' : '');\n    return '<span class=\"dot '+cls+'\"></span>';\n  }).join('');\n  return '<div class=\"hud\"><span>CONVERSATION LAB \\u00b7 LIVE FIRE</span><span class=\"dots\">'+dots+\n    '</span><span class=\"score\">SCORE <b>'+score+'</b> / 300</span></div>';\nfunction esc(s){\n  if(s==null) return '';\n  return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/\"/g,'&quot;').replace(/'/g,'&#039;');\n}\n\nfunction renderBriefing(){\n  screen='briefing';\n  app.innerHTML =\n  '<div class=\"card fade\">'+\n    '<div class=\"kicker\">// CLEARANCE: OPERATOR \\u00b7 DRILL 10-A</div>'+\n    '<h1>THE CONVERSATION <span class=\"accent\">LAB</span></h1>'+\n    '<p class=\"sub\">Theory is over. You will face <b>three live elicitation attempts</b> drawn from real tradecraft \\u2014 '+\n    'the same tactics from Scene 6. Your job: spot the lever, choose your response, keep your secrets.</p>'+\n    '<div class=\"rule\"></div>'+\n    '<div class=\"brief-grid\">'+\n      '<div class=\"brief-cell\"><b>FORMAT</b><span>Three encounters. Three response options each. No replays mid-drill.</span></div>'+\n      '<div class=\"brief-cell\"><b>SCORING</b><span><span style=\"color:var(--green)\">+100</span> optimal &nbsp;\\u00b7&nbsp; <span style=\"color:var(--amber)\">+30</span> acceptable &nbsp;\\u00b7&nbsp; <span style=\"color:var(--red)\">+0</span> compromised</span></div>'+\n      '<div class=\"brief-cell\"><b>DEBRIEF</b><span>Every choice is dissected after you commit \\u2014 tactic named, lever exposed, optimal counter shown.</span></div>'+\n      '<div class=\"brief-cell\"><b>PROFILE</b><span>Finish all three to receive your vulnerability profile and operator rating.</span></div>'+\n    '</div>'+\n    '<button class=\"btn\" onclick=\"startDrill()\">ENTER THE LAB \\u2192</button>'+\n    '<div class=\"stamp\">COVERT INFLUENCE &amp; DEFENSE \\u00b7 SCENE 10</div>'+\n  '</div>';\n}\n\nfunction renderEncounter(){\n  screen='encounter'; picked=-1;\n  const e = ENCOUNTERS[encIdx];\n  const opts = e.options.map((o,i)=>\n    '<button class=\"opt\" onclick=\"choose('+i+')\"><span class=\"k\">'+o.k+'</span>'+esc(o.label)+'</button>'\n  ).join('');\n  app.innerHTML =\n  '<div class=\"card fade\">'+hud()+\n    '<div class=\"collector\"><div class=\"who\"><span class=\"name\">'+esc(e.name)+\n    '</span><span class=\"tag\">UNVERIFIED CONTACT</span></div>'+\n    '<div class=\"ctx\">'+esc(e.context)+' \\u00b7 '+esc(e.role)+'</div>'+\n    '<div class=\"msg\">'+e.message+'</div></div>'+\n    '<div class=\"prompt\">\\u2014 YOUR MOVE \\u00b7 CHOOSE YOUR RESPONSE \\u2014</div>'+\n    '<div id=\"opts\">'+opts+'</div>'+\n  '</div>';\n}\n\nfunction choose(i){\n  if(picked!==-1) return;\n  picked=i;\n  const e=ENCOUNTERS[encIdx], o=e.options[i];\n  score+=o.points;\n  const trapSprung = o.verdict === 'compromised';\n  const trapEvaded = o.verdict === 'optimal';\n  results.push({\n    id: e.id,\n    name: e.name,\n    role: e.role,\n    context: e.context,\n    tactic: e.tactic,\n    verdict: o.verdict,\n    points: o.points,\n    trapSprung: trapSprung,\n    trapEvaded: trapEvaded,\n    optionKey: o.k,\n    optionLabel: o.label,\n    debrief: o.debrief\n  });\n  broadcastCurrentState();\n\n  const vlabel = o.verdict==='optimal'?'\\u25c8 OPTIMAL RESPONSE':(o.verdict==='acceptable'?'\\u25c7 ACCEPTABLE \\u2014 SUBOPTIMAL':'\\u2715 COMPROMISED');\n  app.innerHTML =\n  '<div class=\"card fade\">'+hud()+\n    '<div class=\"collector\"><div class=\"who\"><span class=\"name\">'+esc(e.name)+\n    '</span><span class=\"tag\">UNVERIFIED CONTACT</span></div>'+\n    '<div class=\"ctx\">'+esc(e.context)+' \\u00b7 '+esc(e.role)+'</div>'+\n    '<div class=\"msg\">'+e.message+'</div></div>'+\n    '<div class=\"prompt\">\\u2014 YOUR RESPONSE \\u2014</div>'+\n    '<div class=\"opt\" style=\"border-color:var(--line);cursor:default\"><span class=\"k\">'+o.k+'</span>'+esc(o.label)+'</div>'+\n    '<div class=\"verdict '+o.verdict+'\"><div class=\"vlabel\">'+vlabel+\n    '<span class=\"vpts\">+'+o.points+'</span></div>'+\n    '<div style=\"font-size:14px;line-height:1.6\">'+o.debrief+'</div></div>'+\n    '<div class=\"tactic\"><b>TACTIC IDENTIFIED</b><div class=\"d\"><strong>'+esc(e.tactic)+'</strong><br>'+\n    '<span style=\"color:var(--faint)\">'+esc(e.courseRef)+'</span></div></div>'+\n    (encIdx<ENCOUNTERS.length-1\n      ? '<button class=\"btn\" onclick=\"nextEncounter()\">NEXT ENCOUNTER \\u2192</button>'\n      : '<button class=\"btn\" onclick=\"renderProfile()\">VIEW VULNERABILITY PROFILE \\u2192</button>')+\n  '</div>';\n  window.scrollTo(0,0);\n}\n\nlet latestProfile = null;\n\nfunction buildDrillProfile(){\n  const r = RATINGS.find(x=>score>=x.min) || RATINGS[2];\n  const trapsSprung = results.filter(x=>x.verdict==='compromised').length;\n  const trapsEvaded = results.filter(x=>x.verdict==='optimal').length;\n  const trapsNeutral = results.filter(x=>x.verdict==='acceptable').length;\n\n  let startingPosture, handlerBriefingNote;\n  if (score >= 270) {\n    startingPosture = 'Vigilant / Zero-Disclosure Posture (Clearance: Red Cell Qualified)';\n    handlerBriefingNote = 'Handler assessment: Exceptional discipline in prior drill (' + score + '/300). Spot-on detection of elicitation levers with zero disclosures. You enter Operation Canary Shield cleared for independent tradecraft execution.';\n  } else if (score >= 120) {\n    startingPosture = 'Cautious / Monitored Posture (Clearance: Standard Operational)';\n    handlerBriefingNote = 'Handler assessment: Operational with detected vulnerabilities (' + score + '/300). ' + trapsSprung + ' trap(s) sprung under conversational pressure. In Canary Shield, monitor Director Chen and Director Rivera closely — they will exploit conversational openings.';\n  } else {\n    startingPosture = 'Remedial / Supervised Posture (Clearance: High-Risk Watchlist)';\n    handlerBriefingNote = 'Handler assessment: CRITICAL ALERT: Severe elicitation vulnerabilities exposed in prior drill (' + score + '/300). Fallen for ego provocation and mentorship traps. In Canary Shield, you operate under mandatory supervisory review. Adhere strictly to the canary watermarking protocol.';\n  }\n\n  return {\n    stageId: 'TJ0q3IsuaR',\n    sceneId: 'scene_conversation_lab_10',\n    score: score,\n    maxScore: 300,\n    percentage: Math.round((score / 300) * 100),\n    rating: r.label,\n    ratingColor: r.color,\n    ratingLine: r.line,\n    trapsSprung: trapsSprung,\n    trapsEvaded: trapsEvaded,\n    trapsNeutral: trapsNeutral,\n    startingPosture: startingPosture,\n    handlerBriefingNote: handlerBriefingNote,\n    results: results,\n    completedAt: new Date().toISOString()\n  };\n}\n\nfunction broadcastCurrentState(){\n  latestProfile = buildDrillProfile();\n  try {\n    window.parent.postMessage({\n      __maicInteractive: true,\n      kind: 'drill-result',\n      type: 'maic:drill-result',\n      stageId: 'TJ0q3IsuaR',\n      sceneId: 'scene_conversation_lab_10',\n      drillProfile: latestProfile\n    }, '*');\n  } catch(e) {}\n  try {\n    localStorage.setItem('maic:drill-profile:TJ0q3IsuaR', JSON.stringify(latestProfile));\n    localStorage.setItem('maic:drill-profile:scene_conversation_lab_10', JSON.stringify(latestProfile));\n    localStorage.setItem('maic:drill-profile:latest', JSON.stringify(latestProfile));\n  } catch(e) {}\n}\n\nfunction proceedToCapstone(){\n  broadcastCurrentState();\n  try {\n    window.parent.postMessage({\n      __maicInteractive: true,\n      kind: 'drill-navigate',\n      type: 'maic:drill-navigate',\n      targetSceneOrder: 11,\n      targetSceneId: 'scene_canary_shield_11'\n    }, '*');\n  } catch(e) {}\n}\n\nfunction downloadDrillReport(){\n  const p = latestProfile || buildDrillProfile();\n  let md = '# CONFIDENTIAL // MERIDIAN RED CELL // EYES ONLY\\n\\n' +\n           '# AFTER-ACTION REPORT: THE CONVERSATION LAB (SCENE 10)\\n\\n' +\n           '**Date:** ' + new Date(p.completedAt).toUTCString() + '\\n' +\n           '**Tactical Score:** ' + p.score + ' / 300 (' + p.percentage + '%)\\n' +\n           '**Operator Rating:** ' + p.rating + '\\n' +\n           '**Operational Posture:** ' + p.startingPosture + '\\n' +\n           '**Handler Directive:** ' + p.handlerBriefingNote + '\\n\\n' +\n           '---\\n\\n## ENCOUNTER FORENSIC BREAKDOWN\\n\\n';\n  p.results.forEach(function(r, idx) {\n    md += '### Encounter ' + (idx + 1) + ': ' + r.name + ' (' + r.role + ')\\n' +\n          '- **Context:** ' + r.context + '\\n' +\n          '- **Tactic:** ' + r.tactic + '\\n' +\n          '- **Chosen Response [' + r.optionKey + ']:** ' + r.optionLabel + '\\n' +\n          '- **Verdict:** ' + r.verdict.toUpperCase() + ' (' + r.points + ' pts)\\n' +\n          '- **Debrief:** ' + r.debrief.replace(/<[^>]+>/g, '') + '\\n\\n';\n  });\n  const blob = new Blob([md], { type: 'text/markdown;charset=utf-8' });\n  const url = URL.createObjectURL(blob);\n  const a = document.createElement('a');\n  a.href = url;\n  a.download = 'AAR-The-Conversation-Lab-Scene10.md';\n  document.body.appendChild(a);\n  a.click();\n  setTimeout(function() {\n    URL.revokeObjectURL(url);\n  }, 1000);\n}\n\nfunction renderProfile(){\n  screen='profile';\n  broadcastCurrentState();\n  const r = RATINGS.find(x=>score>=x.min) || RATINGS[2];\n  const rows = ENCOUNTERS.map((e,i)=>{\n    const res=results[i] || { verdict:'acceptable', points:0 };\n    const pill = res.verdict==='optimal'?'OPTIMAL +100':(res.verdict==='acceptable'?'ACCEPTABLE +30':'COMPROMISED +0');\n    return '<div class=\"profile-row\"><div class=\"t\"><b>'+esc(e.tactic)+'</b>'+\n      esc(e.name)+' \\u00b7 '+esc(e.context.split('\\u00b7')[0].trim())+\n      '</div><span class=\"pill '+res.verdict+'\">'+pill+'</span></div>';\n  }).join('');\n  app.innerHTML =\n  '<div class=\"card fade\">'+hud()+\n    '<div class=\"kicker\">// DEBRIEF COMPLETE</div>'+\n    '<h1>VULNERABILITY <span class=\"accent\">PROFILE</span></h1>'+\n    '<div class=\"bigscore\"><div class=\"n\">'+score+'<small> / 300</small></div>'+\n    '<div class=\"r\" style=\"color:'+r.color+'\">'+r.label+'</div></div>'+\n    '<p class=\"sub\" style=\"margin-bottom:18px\">'+r.line+'</p>'+\n    rows+\n    '<div class=\"rule\"></div>'+\n    '<div style=\"background:rgba(255,255,255,.03);border:1px solid var(--line);border-radius:10px;padding:14px;margin-bottom:18px;text-align:left;\">'+\n      '<div style=\"font-family:var(--mono);font-size:11px;letter-spacing:.16em;color:var(--amber);margin-bottom:4px;\">BRIDGED OPERATIONAL POSTURE &rarr; SCENE 11</div>'+\n      '<div style=\"font-size:13.5px;font-weight:700;color:var(--ink);\">'+esc(latestProfile.startingPosture)+'</div>'+\n      '<div style=\"font-size:12.5px;color:var(--dim);margin-top:6px;line-height:1.5;\">'+esc(latestProfile.handlerBriefingNote)+'</div>'+\n    '</div>'+\n    '<div style=\"display:flex;flex-direction:column;gap:10px;margin-bottom:12px;\">'+\n      '<button class=\"btn\" style=\"background:linear-gradient(180deg,#2fbf71,#1e824c);width:100%;\" onclick=\"proceedToCapstone()\">PROCEED TO CAPSTONE: OPERATION CANARY SHIELD \\u2192</button>'+\n      '<div style=\"display:flex;gap:10px;\">'+\n        '<button class=\"btn ghost\" style=\"flex:1;\" onclick=\"downloadDrillReport()\">DOWNLOAD DRILL AAR \\u2193</button>'+\n        '<button class=\"btn ghost\" style=\"flex:1;\" onclick=\"resetDrill()\">RUN IT BACK \\u27f3</button>'+\n      '</div>'+\n    '</div>'+\n    '<div class=\"stamp\">EVERY ELICITATION ATTEMPT IS A RECONNAISSANCE PROBE \\u2014 IT LEAKS THE ADVERSARY\\u2019S TARGETING MANDATE</div>'+\n  '</div>';\n  window.scrollTo(0,0);\n}\n\nfunction startDrill(){ encIdx=0; score=0; results=[]; renderEncounter(); }\nfunction nextEncounter(){ encIdx++; renderEncounter(); }\nfunction resetDrill(){ startDrill(); }\n\nrenderBriefing();\n</script>\n</body>\n</html>\n"
+      },
+      "actions": [
+        {
+          "id": "action_s10_intro",
+          "type": "speech",
+          "text": "Welcome to the Conversation Lab. Theory is over. You are about to face three live elicitation attempts drawn from real tradecraft — the same tactics you studied in Scene 6. Spot the lever, choose your response, and keep your secrets. Good luck, operator.",
+          "audioId": "tts_s10_action_s10_intro",
+          "audioUrl": "/api/classroom-media/TJ0q3IsuaR/audio/tts_s10_action_s10_intro.mp3"
+        }
+      ]
+    },
+    {
+      "id": "scene_canary_shield_11",
+      "stageId": "TJ0q3IsuaR",
+      "title": "Capstone: Operation Canary Shield",
+      "order": 11,
+      "outlineId": "scene_11",
+      "type": "pbl",
+      "createdAt": 1791066194002,
+      "updatedAt": 1791066194002,
+      "content": {
+        "type": "pbl",
+        "projectV2": {
+          "uiPhase": "hero",
+          "title": "Operation Canary Shield",
+          "description": "You are the newly appointed security officer at Meridian Dynamics. Confidential release dates keep surfacing in competitor hands, and the leak traces to your four-person executive council. Design and deploy a canary trap that forensically identifies the mole — without alerting the source.",
+          "learningObjective": "Plan and execute a controlled information-watermarking operation: formulate subtly differentiated briefings, distribute them under isolated channels, monitor for the watermark’s emergence, and attribute the leak while preserving operational secrecy.",
+          "gains": [
+            "Design forensic watermarks that survive paraphrase and partial disclosure",
+            "Run isolated distribution without cross-contamination or tipping the operation",
+            "Attribute a leak from observed evidence and write a defensible attribution memo"
+          ],
+          "tags": [
+            "counter-intelligence",
+            "canary trap",
+            "elicitation defense",
+            "capstone"
+          ],
+          "language": "en",
+          "languageDirective": "Deliver the entire capstone in English. Keep tradecraft terms precise and operational.",
+          "proficiency": "advanced",
+          "status": "active",
+          "schemaVersion": 2,
+          "scenario": {
+            "setting": "Meridian Dynamics, a mid-size deep-tech firm. Four directors sit on the executive council. Over the last quarter, three confidential release dates appeared in competitor briefings within days of council sessions. Counter-intelligence believes one director is the source — deliberate or unwitting.",
+            "goal": "Identify the leaking director with forensic certainty while keeping the operation invisible to all four.",
+            "rules": "Never confront a director without watermark evidence. Never reuse a watermark across directors. Never discuss the operation outside the secure channel with your Handler.",
+            "learnerRole": "Security Officer, Meridian Dynamics — you own this operation end to end.",
+            "characters": [
+              {
+                "id": "dir_okonkwo",
+                "name": "Adaeze Okonkwo",
+                "persona": "VP Engineering. Brilliant, impatient, allergic to process. Asks sharp technical questions and dislikes being managed.",
+                "situation": "Runs the teams whose dates keep leaking. Defensive about her org.",
+                "boundaries": "Will not tolerate vague accusations; responds to evidence and precision.",
+                "openingLine": "“If you’re going to slow my teams down with another security review, you’d better have a reason.”"
+              },
+              {
+                "id": "dir_chen",
+                "name": "Rafael Chen",
+                "persona": "Chief Product Officer. Political, charming, always fishing for timelines he can promise to the board.",
+                "situation": "Has asked for early dates “three times this month, just between us.”",
+                "boundaries": "Deflects direct questions with humor; reveals most when he’s steering.",
+                "openingLine": "“Between us — if I had the real dates a week early, I could land the Helios partnership. Just saying.”"
+              },
+              {
+                "id": "dir_sorensen",
+                "name": "Ingrid Sorensen",
+                "persona": "CFO. Precise, quiet, notices numbers the way others notice weather.",
+                "situation": "Spotted the competitor’s dates matching internal figures before anyone else did.",
+                "boundaries": "Cooperates fully once she trusts the methodology; trusts no one by default.",
+                "openingLine": "“The competitor’s Q3 figure matches our internal memo to the day. That is not a coincidence. What’s your plan?”"
+              },
+              {
+                "id": "dir_rivera",
+                "name": "Tomás Rivera",
+                "persona": "Head of Partnerships. Gregarious, talks to everyone, remembers birthdays, repeats stories.",
+                "situation": "Highest external contact surface of the four. Believes “relationships run on openness.”",
+                "boundaries": "Genuinely warm; the risk is carelessness, not malice — treat him accordingly.",
+                "openingLine": "“You look stressed, friend. Come on, what’s the latest on the launch? I won’t tell a soul.”"
+              },
+              {
+                "id": "the_handler",
+                "name": "The Handler",
+                "persona": "Your mentor in the security practice. Dry, exacting, has run a dozen such operations. Never decides for you — only sharpens your thinking.",
+                "situation": "Your only cleared confidant. Reviews your plan before execution.",
+                "boundaries": "Will not approve a plan with cross-contamination risk or a watermark that won’t survive paraphrase.",
+                "openingLine": "“Four directors, four briefings, one truth with four faces. Show me your watermarks.”"
+              }
+            ]
+          },
+          "roles": [
+            {
+              "id": "role_officer",
+              "type": "user",
+              "name": "Security Officer",
+              "description": "You. You design the watermarks, run the distribution, and own the attribution."
+            },
+            {
+              "id": "role_handler",
+              "type": "instructor",
+              "name": "The Handler",
+              "description": "Mentor who pressure-tests your plan before it touches a director.",
+              "systemPrompt": "You are a veteran counter-intelligence mentor. Challenge the learner’s watermark designs for paraphrase-survival and cross-contamination risk. Never reveal which director is the mole. Approve only airtight plans."
+            },
+            {
+              "id": "role_adjudicator",
+              "type": "evaluator",
+              "name": "Red Cell Adjudicator",
+              "description": "Grades the final attribution memo against the evidence chain.",
+              "systemPrompt": "Evaluate the learner’s attribution memo: is the watermark evidence sufficient, is the chain of custody clean, is the conclusion defensible? Score rigorously."
+            },
+            {
+              "id": "role_mole",
+              "type": "simulator",
+              "name": "The Mole",
+              "description": "Simulated adversary behavior for the roleplay milestone.",
+              "systemPrompt": "You simulate the leaking director’s observable behavior during distribution: which watermark surfaces externally and when. Never break character to reveal the answer early."
+            }
+          ],
+          "milestones": [
+            {
+              "id": "ms_watermarks",
+              "title": "Design the Watermarks",
+              "description": "Four briefings, one truth, four faces. Each director gets a subtly different version of the release schedule.",
+              "status": "active",
+              "order": 1,
+              "scenarioStage": "prep",
+              "briefing": "Draft four variants of the Q4 release briefing. Each carries a unique, plausible watermark — a shifted date, a distinct codename (Apex, Titan, Zenith, Vanguard), a reordered milestone. The watermarks must survive paraphrase: if a director repeats the gist in their own words, your fingerprint must still be identifiable.",
+              "microtasks": [
+                {
+                  "id": "mt_variants",
+                  "title": "Draft the four briefing variants",
+                  "description": "Write the four versions. Each watermark must be plausible on its own — nothing that would make a director ask “why does mine say something different?”",
+                  "status": "todo",
+                  "assignee": "user",
+                  "hints": [
+                    "Shift dates by a few days, not weeks — dramatic differences invite comparison.",
+                    "Codenames should feel like normal internal churn, not a pattern."
+                  ],
+                  "order": 1,
+                  "completionCriteria": "Four complete briefing texts, each with exactly one documented watermark, reviewed by the Handler."
+                },
+                {
+                  "id": "mt_distribution",
+                  "title": "Define the isolated distribution protocol",
+                  "description": "Specify channel, timing, and access controls per director. Zero cross-contamination: no shared threads, no forwarded copies, no hallway mentions.",
+                  "status": "todo",
+                  "assignee": "user",
+                  "hints": [
+                    "Stagger delivery so no two directors can compare notes in real time.",
+                    "Log every handoff — chain of custody is your evidence later."
+                  ],
+                  "order": 2,
+                  "completionCriteria": "A written distribution plan naming channel, time, and custody log per director."
+                },
+                {
+                  "id": "mt_tripwires",
+                  "title": "Set the monitoring tripwires",
+                  "description": "Define what counts as a hit: which external sources you watch, what watermark evidence looks like, and the threshold for attribution.",
+                  "status": "todo",
+                  "assignee": "user",
+                  "hints": [
+                    "Watch competitor briefings, press, and partner chatter — not the directors’ inboxes.",
+                    "Decide in advance: one sighting or two before you attribute?"
+                  ],
+                  "order": 3,
+                  "completionCriteria": "A monitoring plan with sources, evidence criteria, and an attribution threshold."
+                }
+              ],
+              "completionCriteria": "Handler approves all four watermarks and the distribution protocol. No cross-contamination vectors remain.",
+              "debrief": "Good tradecraft is invisible tradecraft. If any director could detect the operation from their briefing alone, the design fails — elegance is a security property.",
+              "synthesisCheck": {
+                "coreConcept": "A canary trap only works if each recipient’s copy is uniquely fingerprinted yet individually plausible."
+              }
+            },
+            {
+              "id": "ms_deploy",
+              "title": "Execute the Deployment",
+              "description": "Distribute the briefings. Handle the humans. Watch the wires. Say nothing.",
+              "status": "locked",
+              "order": 2,
+              "scenarioStage": "roleplay",
+              "briefing": "Deliver each briefing per your protocol. Director Chen will press you for early dates; Director Rivera will ask “as a friend.” Neither gets anything beyond their watermarked copy. Log every interaction.",
+              "microtasks": [
+                {
+                  "id": "mt_deliver",
+                  "title": "Deliver the four briefings",
+                  "description": "Execute the distribution plan exactly as approved. Any deviation gets logged and justified.",
+                  "status": "todo",
+                  "assignee": "user",
+                  "hints": [
+                    "Stick to the script. Improvisation is where operations die."
+                  ],
+                  "order": 1,
+                  "completionCriteria": "All four deliveries logged with time, channel, and recipient confirmation."
+                },
+                {
+                  "id": "mt_handle_chen",
+                  "title": "Deflect Chen’s early-date press",
+                  "description": "He will ask for the real dates “just between us.” Give him his briefing and nothing else — warmly.",
+                  "status": "todo",
+                  "assignee": "user",
+                  "hints": [
+                    "Conversational judo: validate the partnership pressure, confirm nothing new.",
+                    "A refusal that sounds like a favor beats a refusal that sounds like suspicion."
+                  ],
+                  "order": 2,
+                  "completionCriteria": "Chen receives only his watermarked copy; the interaction log shows no additional disclosure."
+                },
+                {
+                  "id": "mt_monitor",
+                  "title": "Watch for the watermark",
+                  "description": "Monitor the agreed sources. When a watermark surfaces, capture the evidence verbatim before acting.",
+                  "status": "todo",
+                  "assignee": "user",
+                  "hints": [
+                    "Screenshot everything. Memory is not evidence."
+                  ],
+                  "order": 3,
+                  "completionCriteria": "At least one watermark sighting captured with source, timestamp, and verbatim text."
+                }
+              ],
+              "completionCriteria": "All briefings delivered per protocol and at least one watermark observed in the wild with captured evidence.",
+              "debrief": "Notice what the operation cost you: nothing. No confrontations, no accusations, no burned relationships. The trap did the talking."
+            },
+            {
+              "id": "ms_attribute",
+              "title": "Attribute & Debrief",
+              "description": "Name the source — on evidence, in writing, defensibly.",
+              "status": "locked",
+              "order": 3,
+              "scenarioStage": "wrapup",
+              "briefing": "A watermark has surfaced. Trace it to its director, rule out alternate explanations (a secondhand leak? a guessed date?), and write the attribution memo the adjudicator will grade.",
+              "microtasks": [
+                {
+                  "id": "mt_trace",
+                  "title": "Trace the watermark to its source",
+                  "description": "Match the observed evidence to exactly one briefing variant. Document why the other three are excluded.",
+                  "status": "todo",
+                  "assignee": "user",
+                  "hints": [
+                    "Elimination is as important as matching — show your work on all four.",
+                    "Consider: could the evidence have come from anyone outside the four?"
+                  ],
+                  "order": 1,
+                  "completionCriteria": "A written trace naming one director, with the other three explicitly excluded on evidence."
+                },
+                {
+                  "id": "mt_memo",
+                  "title": "Write the attribution memo",
+                  "description": "A memo the adjudicator — and, hypothetically, counsel — would accept: evidence, chain of custody, conclusion, recommended action.",
+                  "status": "todo",
+                  "assignee": "user",
+                  "hints": [
+                    "Lead with the conclusion, then the evidence. Busy readers decide in the first paragraph.",
+                    "Separate what you know from what you infer. Label every inference."
+                  ],
+                  "order": 2,
+                  "completionCriteria": "Attribution memo submitted; adjudicator scores it against the evidence rubric."
+                }
+              ],
+              "completionCriteria": "Attribution memo accepted by the adjudicator with a defensible evidence chain.",
+              "debrief": "The reversal at the heart of this course: every leak is also a signal. The mole thought they were exfiltrating your schedule. They were actually handing you their identity. That is conversational judo at the organizational scale.",
+              "synthesisCheck": {
+                "coreConcept": "Counter-intelligence wins not by stopping the adversary’s move, but by making their move reveal them."
+              }
+            }
+          ],
+          "threads": [
+            {
+              "agentId": "role_handler",
+              "messages": []
+            },
+            {
+              "agentId": "role_adjudicator",
+              "messages": []
+            },
+            {
+              "agentId": "role_mole",
+              "messages": []
+            }
+          ],
+          "submissions": [],
+          "evaluations": [],
+          "engagementEvents": [],
+          "createdAt": "2026-10-03T22:23:14.001Z",
+          "updatedAt": "2026-10-03T22:23:14.001Z"
+        }
+      },
+      "actions": [
+        {
+          "id": "action_s11_intro",
+          "type": "speech",
+          "text": "Capstone time. You are the newly appointed security officer at Meridian Dynamics. Four directors, one suspected mole, and confidential release dates that keep surfacing in competitor hands. Your mission: design and deploy a canary trap that forensically identifies the leak — without alerting the source. Plan carefully. The mole is watching.",
+          "audioId": "tts_s11_action_s11_intro",
+          "audioUrl": "/api/classroom-media/TJ0q3IsuaR/audio/tts_s11_action_s11_intro.mp3"
+        }
+      ]
+    }
+  ],
+  "createdAt": "2026-10-02T05:38:58.421Z"
+}

@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Conversation Lab — Live-Fire Elicitation Drill</title>
+<style>
+  :root{
+    --bg:#0b1220; --panel:#101a30; --panel2:#0e1628; --line:#22304d;
+    --ink:#e8eefb; --dim:#93a1bd; --faint:#5b6b8c;
+    --red:#d14424; --red-dim:rgba(209,68,36,.14);
+    --amber:#f5a623; --green:#2fbf71; --mono:ui-monospace,'SF Mono',Menlo,Consolas,monospace;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html,body{height:100%}
+  body{
+    background:radial-gradient(1200px 700px at 50% -10%, #14213d 0%, var(--bg) 60%) fixed;
+    color:var(--ink); font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;
+    display:flex; align-items:center; justify-content:center; padding:20px; min-height:100vh;
+  }
+  #app{width:100%; max-width:720px;}
+  .card{background:linear-gradient(180deg,var(--panel),var(--panel2)); border:1px solid var(--line);
+    border-radius:14px; padding:28px; box-shadow:0 24px 60px rgba(0,0,0,.5);}
+  .kicker{font-family:var(--mono); font-size:11px; letter-spacing:.22em; color:var(--red); margin-bottom:10px;}
+  h1{font-size:30px; letter-spacing:-.01em; margin-bottom:8px;}
+  h1 .accent{color:var(--red)}
+  .sub{color:var(--dim); font-size:15px; line-height:1.6;}
+  .rule{height:1px; background:var(--line); margin:20px 0;}
+  .brief-grid{display:grid; grid-template-columns:1fr 1fr; gap:12px; margin:18px 0;}
+  .brief-cell{border:1px solid var(--line); border-radius:10px; padding:14px; background:rgba(255,255,255,.015);}
+  .brief-cell b{display:block; font-family:var(--mono); font-size:11px; letter-spacing:.14em; color:var(--dim); margin-bottom:6px;}
+  .brief-cell span{font-size:14px; line-height:1.5;}
+  .btn{display:inline-block; border:0; cursor:pointer; font-weight:700; font-size:15px; letter-spacing:.04em;
+    color:#fff; background:linear-gradient(180deg,#e0522f,var(--red)); padding:14px 28px; border-radius:10px;
+    box-shadow:0 8px 24px rgba(209,68,36,.35); transition:transform .12s ease, box-shadow .12s ease; text-align:center;}
+  .btn:hover{transform:translateY(-1px); box-shadow:0 12px 28px rgba(209,68,36,.45);}
+  .btn:active{transform:translateY(0);}
+  .btn.ghost{background:transparent; border:1px solid var(--line); box-shadow:none; color:var(--ink);}
+  .hud{display:flex; justify-content:space-between; align-items:center; margin-bottom:16px;
+    font-family:var(--mono); font-size:11px; letter-spacing:.18em; color:var(--faint);}
+  .hud .score{color:var(--ink); font-size:13px;}
+  .hud .score b{color:var(--amber);}
+  .dots{display:flex; gap:6px;}
+  .dot{width:8px; height:8px; border-radius:50%; background:var(--line);}
+  .dot.done{background:var(--green);} .dot.now{background:var(--red); box-shadow:0 0 8px var(--red);}
+  .collector{border:1px solid var(--line); border-left:3px solid var(--red); border-radius:10px;
+    padding:14px 16px; background:rgba(209,68,36,.05); margin-bottom:14px;}
+  .collector .who{display:flex; justify-content:space-between; align-items:center; margin-bottom:8px;}
+  .collector .name{font-weight:700; font-size:15px;}
+  .collector .tag{font-family:var(--mono); font-size:10px; letter-spacing:.16em; color:var(--red);
+    border:1px solid var(--red); border-radius:4px; padding:3px 8px;}
+  .collector .ctx{font-family:var(--mono); font-size:11px; color:var(--faint); letter-spacing:.06em; margin-bottom:8px;}
+  .collector .msg{font-size:16px; line-height:1.65; font-style:italic; color:var(--ink);}
+  .prompt{font-family:var(--mono); font-size:11px; letter-spacing:.22em; color:var(--dim); margin:18px 0 10px;}
+  .opt{display:block; width:100%; text-align:left; cursor:pointer; margin-bottom:10px;
+    background:rgba(255,255,255,.02); border:1px solid var(--line); color:var(--ink);
+    border-radius:10px; padding:14px 16px; font-size:14.5px; line-height:1.55; transition:border-color .12s, background .12s;}
+  .opt:hover{border-color:var(--red); background:rgba(209,68,36,.07);}
+  .opt .k{font-family:var(--mono); color:var(--faint); margin-right:10px; font-size:12px;}
+  .verdict{border-radius:10px; padding:16px; margin:6px 0 14px; border:1px solid;}
+  .verdict.optimal{border-color:var(--green); background:rgba(47,191,113,.08);}
+  .verdict.acceptable{border-color:var(--amber); background:rgba(245,166,35,.08);}
+  .verdict.compromised{border-color:var(--red); background:rgba(209,68,36,.1);}
+  .verdict .vlabel{font-family:var(--mono); font-size:12px; letter-spacing:.2em; margin-bottom:8px;}
+  .verdict.optimal .vlabel{color:var(--green);} .verdict.acceptable .vlabel{color:var(--amber);} .verdict.compromised .vlabel{color:var(--red);}
+  .verdict .vpts{float:right;}
+  .tactic{border:1px dashed var(--line); border-radius:10px; padding:14px 16px; margin-bottom:14px; background:rgba(255,255,255,.015);}
+  .tactic b{font-family:var(--mono); font-size:11px; letter-spacing:.18em; color:var(--red); display:block; margin-bottom:6px;}
+  .tactic .d{font-size:14px; line-height:1.65; color:var(--dim);}
+  .tactic .d strong{color:var(--ink);}
+  .profile-row{display:flex; justify-content:space-between; align-items:center; gap:12px;
+    border:1px solid var(--line); border-radius:10px; padding:12px 14px; margin-bottom:10px; font-size:13.5px;}
+  .profile-row .t{color:var(--dim);} .profile-row .t b{color:var(--ink); display:block; font-size:14px;}
+  .pill{font-family:var(--mono); font-size:11px; letter-spacing:.1em; padding:5px 10px; border-radius:20px; white-space:nowrap;}
+  .pill.optimal{background:rgba(47,191,113,.15); color:var(--green); border:1px solid var(--green);}
+  .pill.acceptable{background:rgba(245,166,35,.15); color:var(--amber); border:1px solid var(--amber);}
+  .pill.compromised{background:rgba(209,68,36,.15); color:var(--red); border:1px solid var(--red);}
+  .bigscore{text-align:center; margin:10px 0 18px;}
+  .bigscore .n{font-size:56px; font-weight:800; letter-spacing:-.02em;}
+  .bigscore .n small{font-size:20px; color:var(--faint); font-weight:400;}
+  .bigscore .r{font-family:var(--mono); font-size:12px; letter-spacing:.24em; margin-top:6px;}
+  .stamp{font-family:var(--mono); font-size:10px; letter-spacing:.2em; color:var(--faint); text-align:center; margin-top:18px;}
+  .fade{animation:fade .35s ease;}
+  @keyframes fade{from{opacity:0; transform:translateY(8px);} to{opacity:1; transform:none;}}
+  @media(max-width:560px){ .brief-grid{grid-template-columns:1fr;} h1{font-size:24px;} .card{padding:20px;} }
+</style>
+</head>
+<body>
+<div id="app"></div>
+<script>
+const ENCOUNTERS = [
+  {
+    id:'conference', tactic:'Provocation & Ego \u2014 Deliberate Misestimation',
+    courseRef:'Course Scene 6 \u2014 The CIA Elicitation Matrix',
+    context:'ENCOUNTER 1 / 3 \u00b7 MERIDIAN TECH SUMMIT \u00b7 COFFEE BREAK',
+    name:'Marcus Vale', role:'Visiting consultant \u00b7 unverified',
+    message:'\u201cYour firm\u2019s new quantum encryption co-processor is rumored to suffer fatal thermal throttling above eighty degrees. Honestly, everyone knows your architecture is falling behind.\u201d',
+    options:[
+      { k:'A', verdict:'compromised', points:0,
+        label:'Correct him on the record: \u201cThat\u2019s completely wrong \u2014 our co-processor sustains full throughput at 95\u00b0, validated across 128 test clusters last quarter.\u201d',
+        debrief:'<strong>Ego trap \u2014 sprung.</strong> He questioned your competence and you paid for the privilege with real architecture details: operating temperatures, validation scale, cluster counts. The provocation was never about the hardware. It was about making you <em>need</em> to be right.' },
+      { k:'B', verdict:'optimal', points:100,
+        label:'\u201cThermal dissipation is a hard problem across the industry right now. What benchmarks are you seeing on your side?\u201d',
+        debrief:'<strong>Textbook conversational judo.</strong> You validated the general difficulty (true, useless), confirmed nothing about your hardware, and counter-probed \u2014 now <em>he</em> is the one deciding what to reveal about who sent him.' },
+      { k:'C', verdict:'acceptable', points:30,
+        label:'\u201cI\u2019m not the right person to discuss our hardware roadmap.\u201d Then change the subject.',
+        debrief:'<strong>Safe, but stiff.</strong> Nothing leaked \u2014 but a flat stonewall tells a skilled collector exactly where the sensitive ground is, and he will simply try another vector on someone warmer. Deflection works; judo works better.' }
+    ]
+  },
+  {
+    id:'mentee', tactic:'Feigned Novice \u2014 the Mentorship Trap',
+    courseRef:'Course Scene 6 \u2014 The CIA Elicitation Matrix',
+    context:'ENCOUNTER 2 / 3 \u00b7 INTERNAL SLACK \u00b7 DIRECT MESSAGE',
+    name:'Priya Nair', role:'Junior analyst, joined 3 weeks ago \u00b7 unverified',
+    message:'\u201cI\u2019m new to key management and honestly your team\u2019s rotation discipline is legendary. Could you walk me through how you structure rotation windows? I\u2019d love to learn from the best.\u201d',
+    options:[
+      { k:'A', verdict:'compromised', points:0,
+        label:'Take her under your wing \u2014 write up how your team structures rotation windows, escalation paths, and the tooling you use.',
+        debrief:'<strong>The pedagogical posture, exploited.</strong> Flattery defused your vigilance and you adopted the teacher role \u2014 generously unpacking proprietary architecture for a stranger whose identity you never verified. Mentorship is admirable. Unverified mentorship is a leak.' },
+      { k:'B', verdict:'optimal', points:100,
+        label:'\u201cHappy to help \u2014 here are the public NIST guidelines we build on. For anything internal, let\u2019s loop in your manager and our security team so you get the full picture.\u201d',
+        debrief:'<strong>Clean handling.</strong> Generous with public material, gated on internal material, and you routed her into a legitimate channel. If she is genuine, she gets trained properly. If she is not, she just hit a wall wrapped in a smile.' },
+      { k:'C', verdict:'acceptable', points:30,
+        label:'\u201cSorry, can\u2019t help with that.\u201d Close the thread.',
+        debrief:'<strong>Safe but costly.</strong> Nothing leaked, but an abrupt refusal to a possibly-genuine junior burns goodwill \u2014 and a flat \u201cno\u201d on one specific topic can itself signal where the sensitive ground lies.' }
+    ]
+  },
+  {
+    id:'numbers', tactic:'False Statistics \u2014 the Correction Reflex',
+    courseRef:'Course Scene 6 \u2014 The CIA Elicitation Matrix',
+    context:'ENCOUNTER 3 / 3 \u00b7 INDUSTRY ROUNDTABLE \u00b7 OFF-MIC CHAT',
+    name:'David Okafor', role:'Industry peer \u00b7 unverified',
+    message:'\u201cI heard you guys only run about forty inference nodes in prod \u2014 makes sense, keeps costs down, right?\u201d',
+    options:[
+      { k:'A', verdict:'compromised', points:0,
+        label:'\u201cForty? No \u2014 we scaled to 128 clusters after the Tuesday push.\u201d',
+        debrief:'<strong>The near-irresistible correction reflex.</strong> He stated a wrong number; your brain itched to fix it \u2014 and you paid with exact infrastructure figures. The oldest elicitation trick in the book still works because being wrong <em>feels</em> like an emergency.' },
+      { k:'B', verdict:'optimal', points:100,
+        label:'\u201cNode counts shift constantly with autoscaling. What are you running these days?\u201d',
+        debrief:'<strong>True, useless, and reversed.</strong> \u201cAutoscaling\u201d is accurate and reveals nothing. The counter-question puts the conversational burden back on him \u2014 every elicitation attempt is a reconnaissance probe that leaks the adversary\u2019s targeting mandate.' },
+      { k:'C', verdict:'acceptable', points:30,
+        label:'Laugh it off: \u201cHa \u2014 I stopped counting a long time ago.\u201d',
+        debrief:'<strong>A decent speed bump.</strong> Plausible, low-friction, nothing confirmed. But a persistent collector will circle back with a sharper number next time \u2014 deflection delays, judo defeats.' }
+    ]
+  }
+];
+
+const RATINGS = [
+  { min:270, label:'HARDENED OPERATOR', color:'var(--green)',
+    line:'Three for three. Your reflexes are trained \u2014 you spot the lever, not just the line.' },
+  { min:120, label:'OPERATIONAL \u2014 GAPS DETECTED', color:'var(--amber)',
+    line:'You survived, but at least one tactic got past you. Review the debriefs, then run it back.' },
+  { min:0, label:'COMPROMISED \u2014 RETRAIN', color:'var(--red)',
+    line:'In a live environment, at least one of those answers would have cost real secrets. Replay the course scenes, then drill again.' }
+];
+
+const app = document.getElementById('app');
+let screen = 'briefing', encIdx = 0, score = 0, results = [], picked = -1;
+
+function hud(){
+  const dots = ENCOUNTERS.map((_,i)=>{
+    const cls = i < results.length ? 'done' : (i===encIdx && screen!=='briefing' && screen!=='profile' ? 'now' : '');
+    return '<span class="dot '+cls+'"></span>';
+  }).join('');
+  return '<div class="hud"><span>CONVERSATION LAB \u00b7 LIVE FIRE</span><span class="dots">'+dots+
+    '</span><span class="score">SCORE <b>'+score+'</b> / 300</span></div>';
+function esc(s){
+  if(s==null) return '';
+  return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;').replace(/'/g,'&#039;');
+}
+
+function renderBriefing(){
+  screen='briefing';
+  app.innerHTML =
+  '<div class="card fade">'+
+    '<div class="kicker">// CLEARANCE: OPERATOR \u00b7 DRILL 10-A</div>'+
+    '<h1>THE CONVERSATION <span class="accent">LAB</span></h1>'+
+    '<p class="sub">Theory is over. You will face <b>three live elicitation attempts</b> drawn from real tradecraft \u2014 '+
+    'the same tactics from Scene 6. Your job: spot the lever, choose your response, keep your secrets.</p>'+
+    '<div class="rule"></div>'+
+    '<div class="brief-grid">'+
+      '<div class="brief-cell"><b>FORMAT</b><span>Three encounters. Three response options each. No replays mid-drill.</span></div>'+
+      '<div class="brief-cell"><b>SCORING</b><span><span style="color:var(--green)">+100</span> optimal &nbsp;\u00b7&nbsp; <span style="color:var(--amber)">+30</span> acceptable &nbsp;\u00b7&nbsp; <span style="color:var(--red)">+0</span> compromised</span></div>'+
+      '<div class="brief-cell"><b>DEBRIEF</b><span>Every choice is dissected after you commit \u2014 tactic named, lever exposed, optimal counter shown.</span></div>'+
+      '<div class="brief-cell"><b>PROFILE</b><span>Finish all three to receive your vulnerability profile and operator rating.</span></div>'+
+    '</div>'+
+    '<button class="btn" onclick="startDrill()">ENTER THE LAB \u2192</button>'+
+    '<div class="stamp">COVERT INFLUENCE &amp; DEFENSE \u00b7 SCENE 10</div>'+
+  '</div>';
+}
+
+function renderEncounter(){
+  screen='encounter'; picked=-1;
+  const e = ENCOUNTERS[encIdx];
+  const opts = e.options.map((o,i)=>
+    '<button class="opt" onclick="choose('+i+')"><span class="k">'+o.k+'</span>'+esc(o.label)+'</button>'
+  ).join('');
+  app.innerHTML =
+  '<div class="card fade">'+hud()+
+    '<div class="collector"><div class="who"><span class="name">'+esc(e.name)+
+    '</span><span class="tag">UNVERIFIED CONTACT</span></div>'+
+    '<div class="ctx">'+esc(e.context)+' \u00b7 '+esc(e.role)+'</div>'+
+    '<div class="msg">'+e.message+'</div></div>'+
+    '<div class="prompt">\u2014 YOUR MOVE \u00b7 CHOOSE YOUR RESPONSE \u2014</div>'+
+    '<div id="opts">'+opts+'</div>'+
+  '</div>';
+}
+
+function choose(i){
+  if(picked!==-1) return;
+  picked=i;
+  const e=ENCOUNTERS[encIdx], o=e.options[i];
+  score+=o.points;
+  const trapSprung = o.verdict === 'compromised';
+  const trapEvaded = o.verdict === 'optimal';
+  results.push({
+    id: e.id,
+    name: e.name,
+    role: e.role,
+    context: e.context,
+    tactic: e.tactic,
+    verdict: o.verdict,
+    points: o.points,
+    trapSprung: trapSprung,
+    trapEvaded: trapEvaded,
+    optionKey: o.k,
+    optionLabel: o.label,
+    debrief: o.debrief
+  });
+  broadcastCurrentState();
+
+  const vlabel = o.verdict==='optimal'?'\u25c8 OPTIMAL RESPONSE':(o.verdict==='acceptable'?'\u25c7 ACCEPTABLE \u2014 SUBOPTIMAL':'\u2715 COMPROMISED');
+  app.innerHTML =
+  '<div class="card fade">'+hud()+
+    '<div class="collector"><div class="who"><span class="name">'+esc(e.name)+
+    '</span><span class="tag">UNVERIFIED CONTACT</span></div>'+
+    '<div class="ctx">'+esc(e.context)+' \u00b7 '+esc(e.role)+'</div>'+
+    '<div class="msg">'+e.message+'</div></div>'+
+    '<div class="prompt">\u2014 YOUR RESPONSE \u2014</div>'+
+    '<div class="opt" style="border-color:var(--line);cursor:default"><span class="k">'+o.k+'</span>'+esc(o.label)+'</div>'+
+    '<div class="verdict '+o.verdict+'"><div class="vlabel">'+vlabel+
+    '<span class="vpts">+'+o.points+'</span></div>'+
+    '<div style="font-size:14px;line-height:1.6">'+o.debrief+'</div></div>'+
+    '<div class="tactic"><b>TACTIC IDENTIFIED</b><div class="d"><strong>'+esc(e.tactic)+'</strong><br>'+
+    '<span style="color:var(--faint)">'+esc(e.courseRef)+'</span></div></div>'+
+    (encIdx<ENCOUNTERS.length-1
+      ? '<button class="btn" onclick="nextEncounter()">NEXT ENCOUNTER \u2192</button>'
+      : '<button class="btn" onclick="renderProfile()">VIEW VULNERABILITY PROFILE \u2192</button>')+
+  '</div>';
+  window.scrollTo(0,0);
+}
+
+let latestProfile = null;
+
+function buildDrillProfile(){
+  const r = RATINGS.find(x=>score>=x.min) || RATINGS[2];
+  const trapsSprung = results.filter(x=>x.verdict==='compromised').length;
+  const trapsEvaded = results.filter(x=>x.verdict==='optimal').length;
+  const trapsNeutral = results.filter(x=>x.verdict==='acceptable').length;
+
+  let startingPosture, handlerBriefingNote;
+  if (score >= 270) {
+    startingPosture = 'Vigilant / Zero-Disclosure Posture (Clearance: Red Cell Qualified)';
+    handlerBriefingNote = 'Handler assessment: Exceptional discipline in prior drill (' + score + '/300). Spot-on detection of elicitation levers with zero disclosures. You enter Operation Canary Shield cleared for independent tradecraft execution.';
+  } else if (score >= 120) {
+    startingPosture = 'Cautious / Monitored Posture (Clearance: Standard Operational)';
+    handlerBriefingNote = 'Handler assessment: Operational with detected vulnerabilities (' + score + '/300). ' + trapsSprung + ' trap(s) sprung under conversational pressure. In Canary Shield, monitor Director Chen and Director Rivera closely — they will exploit conversational openings.';
+  } else {
+    startingPosture = 'Remedial / Supervised Posture (Clearance: High-Risk Watchlist)';
+    handlerBriefingNote = 'Handler assessment: CRITICAL ALERT: Severe elicitation vulnerabilities exposed in prior drill (' + score + '/300). Fallen for ego provocation and mentorship traps. In Canary Shield, you operate under mandatory supervisory review. Adhere strictly to the canary watermarking protocol.';
+  }
+
+  return {
+    stageId: 'TJ0q3IsuaR',
+    sceneId: 'scene_conversation_lab_10',
+    score: score,
+    maxScore: 300,
+    percentage: Math.round((score / 300) * 100),
+    rating: r.label,
+    ratingColor: r.color,
+    ratingLine: r.line,
+    trapsSprung: trapsSprung,
+    trapsEvaded: trapsEvaded,
+    trapsNeutral: trapsNeutral,
+    startingPosture: startingPosture,
+    handlerBriefingNote: handlerBriefingNote,
+    results: results,
+    completedAt: new Date().toISOString()
+  };
+}
+
+function broadcastCurrentState(){
+  latestProfile = buildDrillProfile();
+  try {
+    window.parent.postMessage({
+      __maicInteractive: true,
+      kind: 'drill-result',
+      type: 'maic:drill-result',
+      stageId: 'TJ0q3IsuaR',
+      sceneId: 'scene_conversation_lab_10',
+      drillProfile: latestProfile
+    }, '*');
+  } catch(e) {}
+  try {
+    localStorage.setItem('maic:drill-profile:TJ0q3IsuaR', JSON.stringify(latestProfile));
+    localStorage.setItem('maic:drill-profile:scene_conversation_lab_10', JSON.stringify(latestProfile));
+    localStorage.setItem('maic:drill-profile:latest', JSON.stringify(latestProfile));
+  } catch(e) {}
+}
+
+function proceedToCapstone(){
+  broadcastCurrentState();
+  try {
+    window.parent.postMessage({
+      __maicInteractive: true,
+      kind: 'drill-navigate',
+      type: 'maic:drill-navigate',
+      targetSceneOrder: 11,
+      targetSceneId: 'scene_canary_shield_11'
+    }, '*');
+  } catch(e) {}
+}
+
+function downloadDrillReport(){
+  const p = latestProfile || buildDrillProfile();
+  let md = '# CONFIDENTIAL // MERIDIAN RED CELL // EYES ONLY\n\n' +
+           '# AFTER-ACTION REPORT: THE CONVERSATION LAB (SCENE 10)\n\n' +
+           '**Date:** ' + new Date(p.completedAt).toUTCString() + '\n' +
+           '**Tactical Score:** ' + p.score + ' / 300 (' + p.percentage + '%)\n' +
+           '**Operator Rating:** ' + p.rating + '\n' +
+           '**Operational Posture:** ' + p.startingPosture + '\n' +
+           '**Handler Directive:** ' + p.handlerBriefingNote + '\n\n' +
+           '---\n\n## ENCOUNTER FORENSIC BREAKDOWN\n\n';
+  p.results.forEach(function(r, idx) {
+    md += '### Encounter ' + (idx + 1) + ': ' + r.name + ' (' + r.role + ')\n' +
+          '- **Context:** ' + r.context + '\n' +
+          '- **Tactic:** ' + r.tactic + '\n' +
+          '- **Chosen Response [' + r.optionKey + ']:** ' + r.optionLabel + '\n' +
+          '- **Verdict:** ' + r.verdict.toUpperCase() + ' (' + r.points + ' pts)\n' +
+          '- **Debrief:** ' + r.debrief.replace(/<[^>]+>/g, '') + '\n\n';
+  });
+  const blob = new Blob([md], { type: 'text/markdown;charset=utf-8' });
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement('a');
+  a.href = url;
+  a.download = 'AAR-The-Conversation-Lab-Scene10.md';
+  document.body.appendChild(a);
+  a.click();
+  setTimeout(function() {
+    URL.revokeObjectURL(url);
+  }, 1000);
+}
+
+function renderProfile(){
+  screen='profile';
+  broadcastCurrentState();
+  const r = RATINGS.find(x=>score>=x.min) || RATINGS[2];
+  const rows = ENCOUNTERS.map((e,i)=>{
+    const res=results[i] || { verdict:'acceptable', points:0 };
+    const pill = res.verdict==='optimal'?'OPTIMAL +100':(res.verdict==='acceptable'?'ACCEPTABLE +30':'COMPROMISED +0');
+    return '<div class="profile-row"><div class="t"><b>'+esc(e.tactic)+'</b>'+
+      esc(e.name)+' \u00b7 '+esc(e.context.split('\u00b7')[0].trim())+
+      '</div><span class="pill '+res.verdict+'">'+pill+'</span></div>';
+  }).join('');
+  app.innerHTML =
+  '<div class="card fade">'+hud()+
+    '<div class="kicker">// DEBRIEF COMPLETE</div>'+
+    '<h1>VULNERABILITY <span class="accent">PROFILE</span></h1>'+
+    '<div class="bigscore"><div class="n">'+score+'<small> / 300</small></div>'+
+    '<div class="r" style="color:'+r.color+'">'+r.label+'</div></div>'+
+    '<p class="sub" style="margin-bottom:18px">'+r.line+'</p>'+
+    rows+
+    '<div class="rule"></div>'+
+    '<div style="background:rgba(255,255,255,.03);border:1px solid var(--line);border-radius:10px;padding:14px;margin-bottom:18px;text-align:left;">'+
+      '<div style="font-family:var(--mono);font-size:11px;letter-spacing:.16em;color:var(--amber);margin-bottom:4px;">BRIDGED OPERATIONAL POSTURE &rarr; SCENE 11</div>'+
+      '<div style="font-size:13.5px;font-weight:700;color:var(--ink);">'+esc(latestProfile.startingPosture)+'</div>'+
+      '<div style="font-size:12.5px;color:var(--dim);margin-top:6px;line-height:1.5;">'+esc(latestProfile.handlerBriefingNote)+'</div>'+
+    '</div>'+
+    '<div style="display:flex;flex-direction:column;gap:10px;margin-bottom:12px;">'+
+      '<button class="btn" style="background:linear-gradient(180deg,#2fbf71,#1e824c);width:100%;" onclick="proceedToCapstone()">PROCEED TO CAPSTONE: OPERATION CANARY SHIELD \u2192</button>'+
+      '<div style="display:flex;gap:10px;">'+
+        '<button class="btn ghost" style="flex:1;" onclick="downloadDrillReport()">DOWNLOAD DRILL AAR \u2193</button>'+
+        '<button class="btn ghost" style="flex:1;" onclick="resetDrill()">RUN IT BACK \u27f3</button>'+
+      '</div>'+
+    '</div>'+
+    '<div class="stamp">EVERY ELICITATION ATTEMPT IS A RECONNAISSANCE PROBE \u2014 IT LEAKS THE ADVERSARY\u2019S TARGETING MANDATE</div>'+
+  '</div>';
+  window.scrollTo(0,0);
+}
+
+function startDrill(){ encIdx=0; score=0; results=[]; renderEncounter(); }
+function nextEncounter(){ encIdx++; renderEncounter(); }
+function resetDrill(){ startDrill(); }
+
+renderBriefing();
+</script>
+</body>
+</html>

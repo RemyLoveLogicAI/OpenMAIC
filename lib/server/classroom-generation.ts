@@ -580,9 +580,10 @@ export async function generateClassroom(
     throw new Error(outlinesResult.error || 'Failed to generate scene outlines');
   }
 
-  const { languageDirective, courseTitle, outlines } = outlinesResult.data;
+  const { languageDirective, courseTitle, outlines: allOutlines } = outlinesResult.data;
+  const outlines = allOutlines.slice(0, 5);
   log.info(
-    `Generated ${outlines.length} scene outlines (languageDirective: ${languageDirective}, courseTitle: ${courseTitle ?? 'n/a'})`,
+    `Generated ${outlines.length} scene outlines (from ${allOutlines.length} planned, languageDirective: ${languageDirective}, courseTitle: ${courseTitle ?? 'n/a'})`,
   );
 
   await options.onProgress?.({
@@ -750,6 +751,10 @@ export async function generateClassroom(
         scenesGenerated: generatedScenes,
         totalScenes: outlines.length,
       });
+
+      if (index + 1 < outlines.length) {
+        await new Promise((resolve) => setTimeout(resolve, 3500));
+      }
     }
 
     const scenes = store.getState().scenes;

@@ -1,0 +1,25 @@
+{
+  "id": "TJ0q3IsuaR",
+  "name": "Covert Influence & Defense",
+  "slug": "covert-influence-and-defense",
+  "scenesCount": 11,
+  "audioCount": 56,
+  "archivedAt": "2026-10-20T00:09:57.963Z",
+  "stage": {
+    "id": "TJ0q3IsuaR",
+    "name": "Covert Influence & Defense",
+    "languageDirective": "Deliver the entire course in English. Technical terms should be presented in English, with a brief explanation if necessary. Avoid overly academic jargon where simpler phrasing can convey the same meaning. Ensure clarity for advanced practitioners.",
+    "videoManifest": {},
+    "style": "interactive",
+    "createdAt": 1790919498767,
+    "updatedAt": 1791066784781,
+    "agentIds": [
+      "default-1",
+      "default-2",
+      "default-3",
+      "default-4",
+      "default-5",
+      "default-6"
+    ]
+  }
+}
