@@ -123,8 +123,8 @@ export async function register(): Promise<void> {
     return shutdownPromise;
   };
 
-  process.once('SIGTERM', () => void shutdown());
-  process.once('SIGINT', () => void shutdown());
+  const { registerProcessShutdownHooks } = await import('@/lib/server/shutdown-hooks');
+  registerProcessShutdownHooks(shutdown);
 }
 
 /**
